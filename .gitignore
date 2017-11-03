@@ -1,8 +1,8 @@
-/Binaries /
-DerivedDataCache /
+Binaries
+DerivedDataCache
 Intermediate
- /Saved
- .vs
+Saved
+.vs
 *.VC.db
 *.opensdf
 *.opendb
