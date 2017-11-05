@@ -939,3 +939,575 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2017.11.05-01.43.00:264][685]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Todd_Skeleton_Auto2008FC49042194BA30EEF83A1F336035F.tmp' to 'F:/UnrealProject_2/Saved/Autosaves/Game/Monsters/Todd/Todd_Skeleton_Auto2.uasset'
 [2017.11.05-01.43.00:271][685]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Saved/Autosaves/Game/Monsters/Todd/Todd_Skeleton_Auto2.uasset
 [2017.11.05-01.43.00:271][685]LogFileHelpers: Auto-saving content packages took 0.715
+[2017.11.05-01.44.41:667][990]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.41:700][990]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.41:879][990]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.41:879][990]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.41:879][990]LogPackageName: SearchForPackageOnDisk took   0.163s, but failed to resolve JW_FlameDungeon.
+[2017.11.05-01.44.41:879][990]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2017.11.05-01.44.41:880][990]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.41:880][990]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.42:012][990]LogPackageName: SearchForPackageOnDisk took   0.153s, but failed to resolve JW_FlameDungeon.
+[2017.11.05-01.44.42:012][990]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2017.11.05-01.44.42:012][990]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.42:013][990]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.42:013][990]LogPackageName: SearchForPackageOnDisk took   0.133s, but failed to resolve JW_FlameDungeon.
+[2017.11.05-01.44.42:013][990]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2017.11.05-01.44.42:057][992]LogPackageName: SearchForPackageOnDisk took   0.125s, but failed to resolve JW_FlameDungeon.
+[2017.11.05-01.44.42:057][992]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2017.11.05-01.44.46:380][  4]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.46:380][  4]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.46:557][  4]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.46:557][  4]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.46:557][  4]LogPackageName: SearchForPackageOnDisk took   0.169s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2017.11.05-01.44.46:557][  4]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2017.11.05-01.44.46:557][  4]LogPackageName: SearchForPackageOnDisk took   0.177s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2017.11.05-01.44.46:557][  4]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2017.11.05-01.44.47:042][  6]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.47:042][  6]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.47:213][  6]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.47:213][  6]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.47:213][  6]LogPackageName: SearchForPackageOnDisk took   0.171s, but failed to resolve JW_Ice_Mountain.
+[2017.11.05-01.44.47:213][  6]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.05-01.44.47:382][  7]LogPackageName: SearchForPackageOnDisk took   0.189s, but failed to resolve JW_Ice_Mountain.
+[2017.11.05-01.44.47:383][  7]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.05-01.44.47:383][  7]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.47:383][  7]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.47:587][  7]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.47:588][  7]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.47:588][  7]LogPackageName: SearchForPackageOnDisk took   0.205s, but failed to resolve FX_Meshes.
+[2017.11.05-01.44.47:588][  7]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.11.05-01.44.47:708][  8]LogPackageName: SearchForPackageOnDisk took   0.184s, but failed to resolve FX_Meshes.
+[2017.11.05-01.44.47:708][  8]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.11.05-01.44.47:708][  8]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.47:708][  8]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.47:897][  8]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.47:897][  8]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.47:897][  8]LogPackageName: SearchForPackageOnDisk took   0.189s, but failed to resolve FX_Meshes.
+[2017.11.05-01.44.47:897][  8]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.11.05-01.44.47:901][  8]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.47:901][  8]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.48:054][  8]LogPackageName: SearchForPackageOnDisk took   0.163s, but failed to resolve FX_Meshes.
+[2017.11.05-01.44.48:054][  8]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.11.05-01.44.48:054][  8]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.48:054][  8]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.48:054][  8]LogPackageName: SearchForPackageOnDisk took   0.153s, but failed to resolve 'FX_Ambient.
+[2017.11.05-01.44.48:054][  8]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2017.11.05-01.44.48:068][  9]LogPackageName: SearchForPackageOnDisk took   0.141s, but failed to resolve 'FX_Ambient.
+[2017.11.05-01.44.48:068][  9]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2017.11.05-01.44.48:077][  9]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.48:078][  9]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.48:221][  9]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.48:221][  9]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.48:222][  9]LogPackageName: SearchForPackageOnDisk took   0.144s, but failed to resolve CastleEffects.
+[2017.11.05-01.44.48:222][  9]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2017.11.05-01.44.48:438][ 11]LogPackageName: SearchForPackageOnDisk took   0.125s, but failed to resolve CastleEffects.
+[2017.11.05-01.44.48:438][ 11]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2017.11.05-01.44.49:080][ 12]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.49:080][ 12]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.49:254][ 12]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.49:254][ 12]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.49:254][ 12]LogPackageName: SearchForPackageOnDisk took   0.173s, but failed to resolve StaticMesh'FX_Meshes.
+[2017.11.05-01.44.49:254][ 12]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2017.11.05-01.44.49:254][ 12]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.49:254][ 12]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.49:392][ 12]LogPackageName: SearchForPackageOnDisk took   0.142s, but failed to resolve StaticMesh'FX_Meshes.
+[2017.11.05-01.44.49:392][ 12]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2017.11.05-01.44.49:392][ 12]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.49:392][ 12]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.49:392][ 12]LogPackageName: SearchForPackageOnDisk took   0.138s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.49:392][ 12]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.44.49:404][ 13]LogPackageName: SearchForPackageOnDisk took   0.132s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.49:404][ 13]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.44.49:418][ 13]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.49:418][ 13]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.49:576][ 13]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.49:577][ 13]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.49:577][ 13]LogPackageName: SearchForPackageOnDisk took   0.158s, but failed to resolve FX_Test_LAN.
+[2017.11.05-01.44.49:577][ 13]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2017.11.05-01.44.49:764][ 15]LogPackageName: SearchForPackageOnDisk took   0.146s, but failed to resolve FX_Test_LAN.
+[2017.11.05-01.44.49:764][ 15]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2017.11.05-01.44.51:422][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.51:423][ 19]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.51:596][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.51:596][ 19]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.51:596][ 19]LogPackageName: SearchForPackageOnDisk took   0.174s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.51:596][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.44.51:597][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.51:597][ 19]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.51:764][ 19]LogPackageName: SearchForPackageOnDisk took   0.171s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.51:765][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.44.51:765][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.51:765][ 19]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.51:765][ 19]LogPackageName: SearchForPackageOnDisk took   0.167s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.51:765][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.44.51:765][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.51:765][ 19]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.51:905][ 19]LogPackageName: SearchForPackageOnDisk took   0.228s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.51:905][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.44.51:905][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.44.51:905][ 19]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.44.51:905][ 19]LogPackageName: SearchForPackageOnDisk took   0.140s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.51:905][ 19]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.44.52:283][ 22]LogPackageName: SearchForPackageOnDisk took   0.206s, but failed to resolve m_FogSheet_02.
+[2017.11.05-01.44.52:283][ 22]LogPackageName: Warning: String asset reference "m_FogSheet_02" could not be resolved.
+[2017.11.05-01.45.21:298][319]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.21:298][319]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.21:455][319]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.21:455][319]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.21:455][319]LogPackageName: SearchForPackageOnDisk took   0.157s, but failed to resolve JW_Ice_Mountain.
+[2017.11.05-01.45.21:455][319]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.05-01.45.21:474][320]LogPackageName: Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.21:474][320]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.21:630][320]LogPackageName: SearchForPackageOnDisk took   0.157s, but failed to resolve JW_Ice_Mountain.
+[2017.11.05-01.45.21:630][320]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.05-01.45.21:630][320]LogPackageName: Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.21:630][320]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.21:630][320]LogPackageName: SearchForPackageOnDisk took   0.156s to resolve S_Survival_CA_Chicken_02.
+[2017.11.05-01.45.21:682][325]LogPackageName: SearchForPackageOnDisk took   0.136s to resolve S_Survival_CA_Chicken_02.
+[2017.11.05-01.45.26:369][672]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.26:369][672]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.26:509][672]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.26:509][672]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.26:509][672]LogPackageName: SearchForPackageOnDisk took   0.139s, but failed to resolve JW_Ice_Mountain.
+[2017.11.05-01.45.26:509][672]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.05-01.45.26:590][676]LogPackageName: SearchForPackageOnDisk took   0.179s, but failed to resolve JW_Ice_Mountain.
+[2017.11.05-01.45.26:590][676]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.05-01.45.26:875][707]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.26:875][707]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.27:028][707]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.05-01.45.27:029][707]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.05-01.45.27:029][707]LogPackageName: SearchForPackageOnDisk took   0.153s, but failed to resolve Env_ALL_Artifacts.
+[2017.11.05-01.45.27:029][707]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2017.11.05-01.45.27:072][711]LogPackageName: SearchForPackageOnDisk took   0.183s, but failed to resolve Env_ALL_Artifacts.
+[2017.11.05-01.45.27:072][711]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2017.11.05-01.46.21:495][761]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 X:\kiyomi_game_assets\revloving_door.FBX)
+[2017.11.05-01.46.21:586][761]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: Model, ItemCount : 5
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: Geometry, ItemCount : 5
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: Material, ItemCount : 2
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: AnimationCurve, ItemCount : 3
+[2017.11.05-01.46.21:587][761]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2017.11.05-01.46.21:600][761]LogFbx: Loading FBX Scene from X:\kiyomi_game_assets\revloving_door.FBX
+[2017.11.05-01.46.21:646][761]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-01.46.23:877][761]LogFbx: Loading FBX Scene from X:\kiyomi_game_assets\revloving_door.FBX
+[2017.11.05-01.46.23:897][761]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-01.46.23:898][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Burnished_Gold'
+[2017.11.05-01.46.23:899][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Burnished_Gold'
+[2017.11.05-01.46.23:916][761]LogMaterial: Missing cached shader map for material Burnished_Gold, compiling. 
+[2017.11.05-01.46.23:961][761]LogStaticMesh: Building static mesh revloving_door_Cylinder01...
+[2017.11.05-01.46.23:964][761]LogStaticMesh: Built static mesh [0.00s] /Game/Enviroment/enviroment_mesh/revloving_door_Cylinder01.revloving_door_Cylinder01
+[2017.11.05-01.46.23:978][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Green_Glass'
+[2017.11.05-01.46.23:978][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Green_Glass'
+[2017.11.05-01.46.23:989][761]LogMaterial: Missing cached shader map for material Green_Glass, compiling. 
+[2017.11.05-01.46.24:026][761]LogStaticMesh: Building static mesh revloving_door_PivotDoor01...
+[2017.11.05-01.46.24:027][761]LogStaticMesh: Built static mesh [0.00s] /Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor01.revloving_door_PivotDoor01
+[2017.11.05-01.46.24:145][761]LogStaticMesh: Building static mesh revloving_door_PivotDoor02...
+[2017.11.05-01.46.24:146][761]LogStaticMesh: Built static mesh [0.00s] /Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor02.revloving_door_PivotDoor02
+[2017.11.05-01.46.24:159][761]LogStaticMesh: Building static mesh revloving_door_PivotDoor03...
+[2017.11.05-01.46.24:160][761]LogStaticMesh: Built static mesh [0.00s] /Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor03.revloving_door_PivotDoor03
+[2017.11.05-01.46.24:181][761]LogStaticMesh: Building static mesh revloving_door_PivotDoor04...
+[2017.11.05-01.46.24:182][761]LogStaticMesh: Built static mesh [0.00s] /Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor04.revloving_door_PivotDoor04
+[2017.11.05-01.46.24:301][761]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 X:\kiyomi_game_assets\chair_sculpt.FBX)
+[2017.11.05-01.46.27:639][761]LogFbx: Loading FBX Scene from X:\kiyomi_game_assets\chair_sculpt.FBX
+[2017.11.05-01.46.27:653][761]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-01.46.27:660][761]LogStaticMesh: Building static mesh chair_sculpt...
+[2017.11.05-01.46.27:711][761]LogStaticMesh: Built static mesh [0.05s] /Game/Enviroment/enviroment_mesh/chair_sculpt.chair_sculpt
+[2017.11.05-01.46.28:244][761]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 X:\kiyomi_game_assets\eye_coin.FBX)
+[2017.11.05-01.46.30:275][761]LogFbx: Loading FBX Scene from X:\kiyomi_game_assets\eye_coin.FBX
+[2017.11.05-01.46.30:543][761]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-01.46.30:546][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Material__47'
+[2017.11.05-01.46.30:546][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Material__47'
+[2017.11.05-01.46.30:550][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/coin_test'
+[2017.11.05-01.46.30:551][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/coin_test'
+[2017.11.05-01.46.30:930][761]LogTexture: Display: Building textures: coin_test (AutoDXT, 1024X1024)
+[2017.11.05-01.46.31:401][761]LogMaterial: Missing cached shader map for material Material__47, compiling. 
+[2017.11.05-01.46.31:402][761]LogMaterial: Warning: Failed to compile Material /Game/Enviroment/enviroment_mesh/Material__47.Material__47 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.05-01.46.31:402][761]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Enviroment/enviroment_mesh/coin_test.coin_test
+[2017.11.05-01.46.31:412][761]LogStaticMesh: Building static mesh eye_coin_inner_eye...
+[2017.11.05-01.46.31:417][761]LogStaticMesh: Built static mesh [0.00s] /Game/Enviroment/enviroment_mesh/eye_coin_inner_eye.eye_coin_inner_eye
+[2017.11.05-01.46.31:426][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Material__70'
+[2017.11.05-01.46.31:426][761]LogLinker: Can't find file '/Game/Enviroment/enviroment_mesh/Material__70'
+[2017.11.05-01.46.31:432][761]LogMaterial: Missing cached shader map for material Material__70, compiling. 
+[2017.11.05-01.46.31:461][761]LogStaticMesh: Building static mesh eye_coin_outer_eye...
+[2017.11.05-01.46.31:465][761]LogStaticMesh: Built static mesh [0.00s] /Game/Enviroment/enviroment_mesh/eye_coin_outer_eye.eye_coin_outer_eye
+[2017.11.05-01.46.31:599][761]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 X:\kiyomi_game_assets\lamp.FBX)
+[2017.11.05-01.46.31:681][761]LogFbx: Loading FBX Scene from X:\kiyomi_game_assets\lamp.FBX
+[2017.11.05-01.46.31:689][761]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-01.46.31:695][761]LogStaticMesh: Building static mesh lamp_Cylinder001...
+[2017.11.05-01.46.31:702][761]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/enviroment_mesh/lamp_Cylinder001.lamp_Cylinder001
+[2017.11.05-01.46.56:584][266]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.05-01.46.56:774][266]EditorErrors: Warning: No assets to check in!
+[2017.11.05-01.47.05:963][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/Burnished_Gold" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Burnished_Gold.uasset" SILENT=true
+[2017.11.05-01.47.05:993][ 69]LogSavePackage: Save=26.82ms
+[2017.11.05-01.47.05:993][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Burnished_GoldFBC8E93F483E333264485EB309A645BB.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Burnished_Gold.uasset'
+[2017.11.05-01.47.05:998][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Burnished_Gold.uasset
+[2017.11.05-01.47.06:238][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/chair_sculpt" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/chair_sculpt.uasset" SILENT=true
+[2017.11.05-01.47.06:288][ 69]LogSavePackage: Save=45.86ms
+[2017.11.05-01.47.06:288][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/chair_sculpt31065D6C4B8AAFB0E914B0A6B0965695.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/chair_sculpt.uasset'
+[2017.11.05-01.47.06:292][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/chair_sculpt.uasset
+[2017.11.05-01.47.06:534][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/coin_test" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/coin_test.uasset" SILENT=true
+[2017.11.05-01.47.07:480][ 69]LogSavePackage: Save=942.55ms
+[2017.11.05-01.47.07:480][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/coin_test17B9DC0544F065635A05438BE3CE0555.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/coin_test.uasset'
+[2017.11.05-01.47.07:486][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/coin_test.uasset
+[2017.11.05-01.47.08:199][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/eye_coin_inner_eye" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/eye_coin_inner_eye.uasset" SILENT=true
+[2017.11.05-01.47.08:256][ 69]LogSavePackage: Save=52.95ms
+[2017.11.05-01.47.08:257][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/eye_coin_inner_eye58394E974088E936C90A9D9F9640F966.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/eye_coin_inner_eye.uasset'
+[2017.11.05-01.47.08:262][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/eye_coin_inner_eye.uasset
+[2017.11.05-01.47.08:493][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/eye_coin_outer_eye" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/eye_coin_outer_eye.uasset" SILENT=true
+[2017.11.05-01.47.08:556][ 69]LogSavePackage: Save=58.97ms
+[2017.11.05-01.47.08:556][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/eye_coin_outer_eyeEA650B5A4C667B1E85E92E850FC9D805.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/eye_coin_outer_eye.uasset'
+[2017.11.05-01.47.08:561][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/eye_coin_outer_eye.uasset
+[2017.11.05-01.47.08:810][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/Green_Glass" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Green_Glass.uasset" SILENT=true
+[2017.11.05-01.47.08:852][ 69]LogSavePackage: Save=37.41ms
+[2017.11.05-01.47.08:852][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Green_GlassC458B22F429E0D7E9510D48ADDDB4AC8.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Green_Glass.uasset'
+[2017.11.05-01.47.08:856][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Green_Glass.uasset
+[2017.11.05-01.47.09:143][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/lamp_Cylinder001" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/lamp_Cylinder001.uasset" SILENT=true
+[2017.11.05-01.47.09:186][ 69]LogSavePackage: Save=38.67ms
+[2017.11.05-01.47.09:186][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/lamp_Cylinder0018632CA1A4D92698C553E4595229FEA17.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/lamp_Cylinder001.uasset'
+[2017.11.05-01.47.09:191][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/lamp_Cylinder001.uasset
+[2017.11.05-01.47.09:556][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/Material__47" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Material__47.uasset" SILENT=true
+[2017.11.05-01.47.09:602][ 69]LogSavePackage: Save=41.06ms
+[2017.11.05-01.47.09:602][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Material__47F487F86E48DFEC5C596551B1C62004ED.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Material__47.uasset'
+[2017.11.05-01.47.09:606][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Material__47.uasset
+[2017.11.05-01.47.09:856][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/Material__70" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Material__70.uasset" SILENT=true
+[2017.11.05-01.47.09:900][ 69]LogSavePackage: Save=38.62ms
+[2017.11.05-01.47.09:900][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Material__70C71972A84E15393F69809E9F03A382E6.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Material__70.uasset'
+[2017.11.05-01.47.09:904][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/Material__70.uasset
+[2017.11.05-01.47.10:232][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/revloving_door_Cylinder01" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_Cylinder01.uasset" SILENT=true
+[2017.11.05-01.47.10:308][ 69]LogSavePackage: Save=71.81ms
+[2017.11.05-01.47.10:308][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/revloving_door_Cylinder016813C9B94B903A33594493BC0C4E0FF5.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_Cylinder01.uasset'
+[2017.11.05-01.47.10:314][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_Cylinder01.uasset
+[2017.11.05-01.47.10:552][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor01" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor01.uasset" SILENT=true
+[2017.11.05-01.47.10:593][ 69]LogSavePackage: Save=36.13ms
+[2017.11.05-01.47.10:593][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/revloving_door_PivotDoor01747D06A146F685CAB2CFD781788492B1.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor01.uasset'
+[2017.11.05-01.47.10:599][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor01.uasset
+[2017.11.05-01.47.10:863][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor02" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor02.uasset" SILENT=true
+[2017.11.05-01.47.10:906][ 69]LogSavePackage: Save=39.63ms
+[2017.11.05-01.47.10:906][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/revloving_door_PivotDoor024D94FAF94365F13368FC2F9BAD6D03D3.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor02.uasset'
+[2017.11.05-01.47.10:912][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor02.uasset
+[2017.11.05-01.47.11:179][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor03" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor03.uasset" SILENT=true
+[2017.11.05-01.47.11:220][ 69]LogSavePackage: Save=35.65ms
+[2017.11.05-01.47.11:220][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/revloving_door_PivotDoor03E0232F0642BEE4A51EAA4E89FC9C993F.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor03.uasset'
+[2017.11.05-01.47.11:224][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor03.uasset
+[2017.11.05-01.47.11:565][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enviroment/enviroment_mesh/revloving_door_PivotDoor04" FILE="F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor04.uasset" SILENT=true
+[2017.11.05-01.47.11:612][ 69]LogSavePackage: Save=43.32ms
+[2017.11.05-01.47.11:612][ 69]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/revloving_door_PivotDoor04A6CC09DB47F67E2EFAA7D9B1081B13C8.tmp' to 'F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor04.uasset'
+[2017.11.05-01.47.11:618][ 69]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Enviroment/enviroment_mesh/revloving_door_PivotDoor04.uasset
+[2017.11.05-01.47.27:041][582]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.05-01.48.09:456][582]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.05-01.48.09:534][582]SourceControl: Error: fatal: cannot do a partial commit during a merge.
+[2017.11.05-01.48.09:570][582]SourceControl: Submitted revision.
+[2017.11.05-01.48.21:969][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level01_outside" FILE="F:/UnrealProject_2/Content/Level01_outside.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-01.48.22:801][682]LogSavePackage: Save=724.87ms
+[2017.11.05-01.48.22:801][682]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Level01_outside909722894090C9B0F5755B9B88B43C4F.tmp' to 'F:/UnrealProject_2/Content/Level01_outside.umap'
+[2017.11.05-01.48.22:804][682]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Level01_outside.umap
+[2017.11.05-01.48.22:999][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level01_outside_BuiltData" FILE="F:/UnrealProject_2/Content/Level01_outside_BuiltData.uasset" SILENT=true
+[2017.11.05-01.48.23:053][682]LogSavePackage: Save=31.34ms
+[2017.11.05-01.48.23:053][682]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Level01_outside_BuiltDataA3991AB04E9F5A3B4F5D7CA9E3A21720.tmp' to 'F:/UnrealProject_2/Content/Level01_outside_BuiltData.uasset'
+[2017.11.05-01.48.23:055][682]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Level01_outside_BuiltData.uasset
+[2017.11.05-01.48.38:860][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Todd/BP_Todd" FILE="F:/UnrealProject_2/Content/Monsters/Todd/BP_Todd.uasset" SILENT=true
+[2017.11.05-01.48.38:933][201]LogSavePackage: Save=43.28ms
+[2017.11.05-01.48.38:933][201]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/BP_Todd0F5139A24CE38D06659BDD964A0E377C.tmp' to 'F:/UnrealProject_2/Content/Monsters/Todd/BP_Todd.uasset'
+[2017.11.05-01.48.38:943][201]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Monsters/Todd/BP_Todd.uasset
+[2017.11.05-01.48.38:947][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Todd/Todd" FILE="F:/UnrealProject_2/Content/Monsters/Todd/Todd.uasset" SILENT=true
+[2017.11.05-01.48.39:215][201]LogSavePackage: Save=169.73ms
+[2017.11.05-01.48.39:216][201]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Todd088B209344EEB9053B5FF08B08651B8D.tmp' to 'F:/UnrealProject_2/Content/Monsters/Todd/Todd.uasset'
+[2017.11.05-01.48.39:229][201]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Monsters/Todd/Todd.uasset
+[2017.11.05-01.48.39:233][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Todd/Todd_Skeleton" FILE="F:/UnrealProject_2/Content/Monsters/Todd/Todd_Skeleton.uasset" SILENT=true
+[2017.11.05-01.48.39:262][201]LogSavePackage: Save=16.72ms
+[2017.11.05-01.48.39:262][201]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Todd_SkeletonB4F394CB423D85BA5A815C8C6BEFED88.tmp' to 'F:/UnrealProject_2/Content/Monsters/Todd/Todd_Skeleton.uasset'
+[2017.11.05-01.48.39:274][201]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Monsters/Todd/Todd_Skeleton.uasset
+[2017.11.05-01.48.43:187][590]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.05-01.48.43:439][591]Cmd: QUIT_EDITOR
+[2017.11.05-01.48.43:910][591]LogExit: Preparing to exit.
+[2017.11.05-01.48.45:195][591]LogExit: Editor shut down
+[2017.11.05-01.48.45:204][591]LogExit: Transaction tracking system shut down
+[2017.11.05-01.48.45:652][591]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.05-01.48.45:652][591]LogDirectoryWatcher: A directory notification for 'F:/UnrealProject_2/Content/' was aborted.
+[2017.11.05-01.48.45:652][591]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.05-01.48.45:652][591]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.05-01.48.45:653][591]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.05-01.48.45:823][591]LogExit: Object subsystem successfully closed.
+[2017.11.05-01.48.45:857][591]LogD3D11RHI: Shutdown
+[2017.11.05-01.48.45:857][591]LogD3D11RHI: CleanupD3DDevice
+[2017.11.05-01.48.46:081][591]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.05-01.48.46:112][591]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (542)
+[2017.11.05-01.48.46:112][591]LogModuleManager: Shutting down and abandoning module SkeletonEditor (540)
+[2017.11.05-01.48.46:130][591]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (538)
+[2017.11.05-01.48.46:130][591]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.11.05-01.48.46:130][591]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.11.05-01.48.46:130][591]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.11.05-01.48.46:130][591]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.05-01.48.46:130][591]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.05-01.48.46:130][591]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.05-01.48.46:130][591]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.05-01.48.46:132][591]LogDirectoryWatcher: A directory notification for 'F:/UnrealProject_2/Content/Collections/' was aborted.
+[2017.11.05-01.48.46:132][591]LogDirectoryWatcher: A directory notification for 'F:/UnrealProject_2/Content/Developers/andrewfaubert/Collections/' was aborted.
+[2017.11.05-01.48.46:132][591]LogDirectoryWatcher: A directory notification for 'F:/UnrealProject_2/Saved/Collections/' was aborted.
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.05-01.48.46:132][591]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.05-01.48.46:133][591]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.05-01.48.46:134][591]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.05-01.48.46:134][591]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.05-01.48.46:134][591]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.05-01.48.46:134][591]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.05-01.48.46:134][591]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.05-01.48.46:570][591]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.05-01.48.46:571][591]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.05-01.48.46:634][591]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.05-01.48.46:635][591]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.05-01.48.46:635][591]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.05-01.48.46:649][591]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.05-01.48.46:649][591]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.05-01.48.46:649][591]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.05-01.48.46:649][591]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.05-01.48.46:649][591]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.05-01.48.46:649][591]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.05-01.48.46:650][591]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.05-01.48.46:719][591]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.05-01.48.46:719][591]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.05-01.48.46:719][591]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.05-01.48.46:720][591]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.05-01.48.46:721][591]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.05-01.48.46:721][591]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.05-01.48.46:721][591]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.05-01.48.46:721][591]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.05-01.48.46:744][591]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.05-01.48.46:745][591]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.05-01.48.46:745][591]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.05-01.48.46:746][591]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.05-01.48.46:847][591]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.05-01.48.46:948][591]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.05-01.48.46:948][591]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.05-01.48.46:948][591]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.05-01.48.46:948][591]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.05-01.48.46:948][591]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.05-01.48.46:948][591]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.05-01.48.46:950][591]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.05-01.48.46:950][591]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.05-01.48.46:950][591]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.05-01.48.46:951][591]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.05-01.48.46:952][591]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.05-01.48.46:958][591]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.05-01.48.46:958][591]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.05-01.48.46:959][591]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.05-01.48.46:961][591]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.05-01.48.46:973][591]LogDerivedDataCache: Shutdown
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.05-01.48.46:973][591]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.05-01.48.46:974][591]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.05-01.48.46:975][591]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.05-01.48.46:975][591]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.05-01.48.46:975][591]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.05-01.48.46:975][591]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9F3A0C4B-48E2-64E9-9D4A-77BBD048E12E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=f1a9657b4e7fed7c0d26eb8da44d9642%7Cceceb88017524113ae553a2c76019fc5%7C07785d6a-e6f5-46ce-9a7d-eb5e2542bf6d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.05-01.48.46:979][591]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.05-01.48.46:982][591]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.05-01.48.46:993][591]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.05-01.48.46:993][591]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.05-01.48.46:993][591]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.05-01.48.46:993][591]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.05-01.48.46:994][591]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.05-01.48.46:994][591]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.05-01.48.46:996][591]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.05-01.48.46:997][591]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.05-01.48.46:997][591]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.05-01.48.47:007][591]LogExit: Exiting.
+[2017.11.05-01.48.47:042][591]Log file closed, 11/04/17 19:48:47
