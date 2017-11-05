@@ -1,13 +1,13 @@
-﻿Log file open, 11/02/17 21:08:46
+﻿Log file open, 11/04/17 18:54:25
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: SideScroller3
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-200730366) SRandInit(-200730366).
+LogInit: Display: RandInit(994233241) SRandInit(994233241).
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.260510
+LogStats: Stats thread started at 0.382145
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,376 +109,818 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.03-03.08.47:190][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.03-03.08.47:191][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.03-03.08.47:219][  0]LogInit: Computer: W700B-R3M4
-[2017.11.03-03.08.47:219][  0]LogInit: User: robertsonb
-[2017.11.03-03.08.47:219][  0]LogInit: CPU Page size=4096, Cores=6
-[2017.11.03-03.08.47:219][  0]LogInit: High frequency timer resolution =2.338338 MHz
-[2017.11.03-03.08.47:220][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.03-03.08.47:220][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.03-03.08.47:220][  0]LogMemory: Process Physical Memory: 279.18 MB used, 279.18 MB peak
-[2017.11.03-03.08.47:220][  0]LogMemory: Process Virtual Memory: 276.89 MB used, 276.89 MB peak
-[2017.11.03-03.08.47:220][  0]LogMemory: Physical Memory: 4841.83 MB used,  11466.53 MB free, 16308.36 MB total
-[2017.11.03-03.08.47:220][  0]LogMemory: Virtual Memory: 676.41 MB used,  11466.53 MB free, 134217728.00 MB total
-[2017.11.03-03.08.47:497][  0]LogInit: Using OS detected language (en-US).
-[2017.11.03-03.08.47:497][  0]LogInit: Using OS detected locale (en-CA).
-[2017.11.03-03.08.47:501][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.03-03.08.48:541][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.03-03.08.48:603][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
-[2017.11.03-03.08.48:603][  0]LogD3D11RHI:       4063/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.03-03.08.48:606][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.03-03.08.48:606][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.03-03.08.48:606][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.03-03.08.48:615][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.03-03.08.48:615][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.03-03.08.48:615][  0]LogWindows: EnumDisplayDevices:
-[2017.11.03-03.08.48:615][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:0 D:1)
-[2017.11.03-03.08.48:615][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:1 D:1)
-[2017.11.03-03.08.48:616][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
-[2017.11.03-03.08.48:617][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
-[2017.11.03-03.08.48:617][  0]LogWindows:    4. 'Mirage Driver' (P:0 D:0)
-[2017.11.03-03.08.48:618][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.11.03-03.08.48:618][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
-[2017.11.03-03.08.48:618][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
-[2017.11.03-03.08.48:618][  0]LogD3D11RHI:      Driver Date: 8-21-2017
-[2017.11.03-03.08.48:618][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.03-03.08.48:660][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.03-03.08.48:674][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.03-03.08.48:760][  0]LogShaderCompilers: Guid format shader working directory is 35 characters bigger than the processId version (D:/BR/BR/SideScroller3/Intermediate/Shaders/WorkingDirectory/9492/).
-[2017.11.03-03.08.48:761][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/robertsonb.ULETH/AppData/Local/Temp/UnrealShaderWorkingDir/127DEA9C430599190AB5809D29823CC5/'.
-[2017.11.03-03.08.48:761][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.03-03.08.50:326][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.03-03.08.50:420][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.03-03.08.50:495][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.03-03.08.50:570][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.03-03.08.50:651][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.03-03.08.50:726][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.03-03.08.50:801][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.03-03.08.50:890][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.03-03.08.50:961][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.03-03.08.51:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.03-03.08.51:135][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.03-03.08.51:217][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.03-03.08.51:292][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.03-03.08.51:365][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.03-03.08.51:441][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.03-03.08.51:602][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.03-03.08.51:602][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.03-03.08.51:681][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.03-03.08.51:835][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.03-03.08.51:909][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.03-03.08.51:995][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.03-03.08.52:070][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.03-03.08.52:143][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.03-03.08.52:216][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.03-03.08.52:216][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.03-03.08.53:108][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.03-03.08.53:241][  0]LogDerivedDataCache: Loaded boot cache 0.13s 93MB C:/Users/robertsonb.ULETH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.03-03.08.53:241][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/robertsonb.ULETH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.03-03.08.53:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/BR/BR/SideScroller3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.03-03.08.53:241][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.03-03.08.53:242][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/BR/BR/SideScroller3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.03-03.08.53:242][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.03-03.08.53:268][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.03-03.08.53:281][  0]LogDerivedDataCache: Using Local data cache path C:/Users/robertsonb.ULETH/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.03-03.08.53:307][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.03-03.08.53:307][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.03-03.08.53:309][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.03-03.08.53:309][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.03-03.08.53:842][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
-[2017.11.03-03.08.54:037][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.03-03.08.54:313][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.03-03.08.54:953][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.03-03.08.55:069][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.03-03.08.55:069][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.03-03.08.55:069][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.03-03.08.55:069][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.03-03.08.55:069][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.03-03.08.55:748][  0]LogNetVersion: SideScroller3 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3348076882)
-[2017.11.03-03.08.56:187][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.072340 seconds
-[2017.11.03-03.08.56:203][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.03-03.08.56:203][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.03-03.08.56:203][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.03-03.08.56:329][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.03-03.09.00:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.03-03.09.01:054][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.03-03.09.02:087][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.03-03.09.02:938][  0]SourceControl: Source control is disabled
-[2017.11.03-03.09.04:862][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.03-03.09.05:393][  0]LogOcInput: OculusInput pre-init called
-[2017.11.03-03.09.05:837][  0]LogEngine: Initializing Engine...
-[2017.11.03-03.09.05:841][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.03-03.09.06:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.03-03.09.06:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.03-03.09.06:384][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.03-03.09.06:396][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.03-03.09.06:540][  0]LogInit: FAudioDevice initialized.
-[2017.11.03-03.09.06:907][  0]LogDerivedDataCache: Saved boot cache 0.37s 93MB C:/Users/robertsonb.ULETH/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.03-03.09.06:938][  0]LogInit: Texture streaming: Enabled
-[2017.11.03-03.09.07:173][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.03-03.09.07:600][  0]LogInit: Transaction tracking system initialized
-[2017.11.03-03.09.08:096][  0]BlueprintLog: New page: Editor Load
-[2017.11.03-03.09.09:856][  0]LocalizationService: Localization service is disabled
-[2017.11.03-03.09.11:301][  0]LogConsoleResponse: Display: 
-[2017.11.03-03.09.11:619][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.03-03.09.11:619][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.03-03.09.11:619][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.03-03.09.12:037][  0]LogFileCache: Scanning file cache for directory 'D:/BR/BR/SideScroller3/Content/' took 0.02s
-[2017.11.03-03.09.13:449][  0]Cmd: MAP LOAD FILE="D:/BR/BR/SideScroller3/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.03-03.09.13:450][  0]LogEditorServer: Warning: Can't find file 'D:/BR/BR/SideScroller3/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2017.11.03-03.09.13:450][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.03-03.09.13:572][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 121.351ms to complete.
-[2017.11.03-03.09.13:572][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.122
-[2017.11.03-03.09.13:720][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.03-03.09.13:888][  0]LogCollectionManager: Loaded 0 collections in 0.002577 seconds
-[2017.11.03-03.09.14:018][  0]LogFileCache: Scanning file cache for directory 'D:/BR/BR/SideScroller3/Saved/Collections/' took 0.01s
-[2017.11.03-03.09.14:018][  0]LogFileCache: Scanning file cache for directory 'D:/BR/BR/SideScroller3/Content/Developers/robertsonb/Collections/' took 0.01s
-[2017.11.03-03.09.14:018][  0]LogFileCache: Scanning file cache for directory 'D:/BR/BR/SideScroller3/Content/Collections/' took 0.01s
-[2017.11.03-03.09.14:018][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.03-03.09.14:029][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2386 classes and 500 folders.
-[2017.11.03-03.09.14:123][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.11.03-03.09.14:205][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2017.11.03-03.09.14:281][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2017.11.03-03.09.14:318][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.03-03.09.14:321][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.03-03.09.14:330][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.03-03.09.14:519][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
-[2017.11.03-03.09.14:817][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.11.03-03.09.14:817][  0]LogLoad: (Engine Initialization) Total time: 30.46 seconds
-[2017.11.03-03.09.14:817][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.03-03.09.14:818][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.03-03.09.14:849][  0]SourceControl: On branch master
-[2017.11.03-03.09.14:849][  0]SourceControl: Changes not staged for commit:
-[2017.11.03-03.09.14:849][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.03-03.09.14:849][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.03-03.09.14:849][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
-[2017.11.03-03.09.14:849][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.03-03.09.14:849][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.11.03-03.09.14:849][  0]SourceControl: 	modified:   Saved/Logs/SideScroller3.log
-[2017.11.03-03.09.14:849][  0]SourceControl: Untracked files:
-[2017.11.03-03.09.14:849][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.03-03.09.14:849][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F7416ECE4B89A6417FAB76BC91B9B201/
-[2017.11.03-03.09.14:850][  0]SourceControl: 	Saved/Logs/SideScroller3-backup-2017.11.02-21.08.46.log
-[2017.11.03-03.09.14:850][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.03-03.09.14:850][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.03-03.09.14:919][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.03-03.09.14:966][  2]LogAssetRegistry: Asset discovery search completed in 21.1461 seconds
-[2017.11.03-03.09.14:968][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.03-03.09.14:968][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
-[2017.11.03-03.09.16:169][ 16]LogSlate: Took 0.000517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.03-03.09.29:891][499]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.03-03.09.30:452][499]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 113 classes and 0 folders.
-[2017.11.03-03.09.31:363][499]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.03-03.09.44:709][945]LogStaticMesh: Building static mesh Healer_Asset...
-[2017.11.03-03.09.44:826][945]LogStaticMesh: Built static mesh [0.12s] /Game/Monsters/Monsters/Healer/Healer_Asset.Healer_Asset
-[2017.11.03-03.09.44:877][945]LogMaterial: Missing cached shader map for material Material__2, compiling. 
-[2017.11.03-03.09.45:621][945]LogRenderer: Reallocating scene render targets to support 1432x1044 Format 10 NumSamples 1 (Frame:1).
-[2017.11.03-03.11.28:907][359]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.11.03-03.11.29:063][359]EditorErrors: Warning: No assets to check in!
-[2017.11.03-03.13.19:708][381]SourceControl: rm 'Content/yep.uasset'
-[2017.11.03-03.13.22:401][668]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.11.03-03.13.37:696][668]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.11.03-03.13.37:752][668]SourceControl: [master cf47c91] Removed Andrews Yep BP, nothing to write about
-[2017.11.03-03.13.37:752][668]SourceControl:  Committer: Robertson <robertsonb@uleth.ca>
-[2017.11.03-03.13.37:752][668]SourceControl: Your name and email address were configured automatically based
-[2017.11.03-03.13.37:752][668]SourceControl: on your username and hostname. Please check that they are accurate.
-[2017.11.03-03.13.37:752][668]SourceControl: You can suppress this message by setting them explicitly:
-[2017.11.03-03.13.37:752][668]SourceControl:     git config --global user.name "Your Name"
-[2017.11.03-03.13.37:752][668]SourceControl:     git config --global user.email you@example.com
-[2017.11.03-03.13.37:752][668]SourceControl: After doing this, you may fix the identity used for this commit with:
-[2017.11.03-03.13.37:753][668]SourceControl:     git commit --amend --reset-author
-[2017.11.03-03.13.37:753][668]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.11.03-03.13.37:753][668]SourceControl:  delete mode 100644 Content/yep.uasset
-[2017.11.03-03.13.37:782][668]SourceControl: Commited [master cf47c91] Removed Andrews Yep BP, nothing to write about.
-[2017.11.03-03.28.50:017][709]LogAIModule: Creating AISystem for world ExampleMap
-[2017.11.03-03.28.50:020][709]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old needed to have new flag set bUsedWithSkeletalMesh !
-[2017.11.03-03.28.50:024][709]LogMaterial: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
-[2017.11.03-03.28.50:090][709]MapCheck: Warning: M_Brick_Clay_Old Material /Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2017.11.03-03.28.50:188][709]Cmd: MAP LOAD FILE="D:/BR/BR/SideScroller3/Content/ExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.03-03.28.50:188][709]LightingResults: New page: Lighting Build
-[2017.11.03-03.28.50:286][709]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0009 seconds. Added 5 classes and 0 folders.
-[2017.11.03-03.28.50:287][709]LoadErrors: New page: Loading map: ExampleMap.umap
-[2017.11.03-03.28.50:287][709]MapCheck: New page: Map Check
-[2017.11.03-03.28.50:287][709]LightingResults: New page: Lighting Build
-[2017.11.03-03.28.50:321][709]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.03-03.28.50:524][709]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.03-03.28.50:652][709]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.431ms to complete.
-[2017.11.03-03.28.50:652][709]LogFileHelpers: Loading map 'ExampleMap' took 0.466
-[2017.11.03-03.29.21:288][407]SourceControl: On branch master
-[2017.11.03-03.29.21:288][407]SourceControl: Changes not staged for commit:
-[2017.11.03-03.29.21:288][407]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.03-03.29.21:288][407]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.03-03.29.21:288][407]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
-[2017.11.03-03.29.21:288][407]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
-[2017.11.03-03.29.21:288][407]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.03-03.29.21:288][407]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.11.03-03.29.21:289][407]SourceControl: 	modified:   Saved/Logs/SideScroller3.log
-[2017.11.03-03.29.21:289][407]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.03-03.29.21:705][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/OwlBT" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/OwlBT.uasset" SILENT=true
-[2017.11.03-03.29.21:716][407]LogSavePackage: Save=8.61ms
-[2017.11.03-03.29.21:716][407]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/OwlBT88D173074872B76898BBC78CB64F9903.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/OwlBT.uasset'
-[2017.11.03-03.29.21:719][407]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/OwlBT.uasset
-[2017.11.03-03.30.09:224][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/AI_Owl" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/AI_Owl.uasset" SILENT=true
-[2017.11.03-03.30.09:246][344]LogSavePackage: Save=19.26ms
-[2017.11.03-03.30.09:246][344]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/AI_Owl6C37C59A49D950F6E25B669726769A08.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/AI_Owl.uasset'
-[2017.11.03-03.30.09:249][344]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/AI_Owl.uasset
-[2017.11.03-03.30.09:455][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/OwlBlackBoard" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/OwlBlackBoard.uasset" SILENT=true
-[2017.11.03-03.30.09:466][344]LogSavePackage: Save=8.55ms
-[2017.11.03-03.30.09:466][344]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/OwlBlackBoardB1868D15404040C7D893B385A1A3F8DE.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/OwlBlackBoard.uasset'
-[2017.11.03-03.30.09:468][344]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/OwlBlackBoard.uasset
-[2017.11.03-03.30.14:539][761]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.11.03-03.30.35:107][761]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.11.03-03.30.35:184][761]SourceControl: [master de8acbd] Added the assets needed to create the owl AI
-[2017.11.03-03.30.35:184][761]SourceControl:  Committer: Robertson <robertsonb@uleth.ca>
-[2017.11.03-03.30.35:184][761]SourceControl: Your name and email address were configured automatically based
-[2017.11.03-03.30.35:184][761]SourceControl: on your username and hostname. Please check that they are accurate.
-[2017.11.03-03.30.35:184][761]SourceControl: You can suppress this message by setting them explicitly:
-[2017.11.03-03.30.35:184][761]SourceControl:     git config --global user.name "Your Name"
-[2017.11.03-03.30.35:184][761]SourceControl:     git config --global user.email you@example.com
-[2017.11.03-03.30.35:184][761]SourceControl: After doing this, you may fix the identity used for this commit with:
-[2017.11.03-03.30.35:184][761]SourceControl:     git commit --amend --reset-author
-[2017.11.03-03.30.35:184][761]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
-[2017.11.03-03.30.35:184][761]SourceControl:  create mode 100644 Content/Monsters/Owls/AI_Owl.uasset
-[2017.11.03-03.30.35:184][761]SourceControl:  create mode 100644 Content/Monsters/Owls/OwlBT.uasset
-[2017.11.03-03.30.35:184][761]SourceControl:  create mode 100644 Content/Monsters/Owls/OwlBlackBoard.uasset
-[2017.11.03-03.30.35:228][761]SourceControl: Commited [master de8acbd] Added the assets needed to create the owl AI.
-[2017.11.03-03.31.40:634][124]SourceControl: On branch master
-[2017.11.03-03.31.40:634][124]SourceControl: Changes not staged for commit:
-[2017.11.03-03.31.40:634][124]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.03-03.31.40:634][124]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.03-03.31.40:634][124]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
-[2017.11.03-03.31.40:634][124]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
-[2017.11.03-03.31.40:635][124]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.03-03.31.40:635][124]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.11.03-03.31.40:635][124]SourceControl: 	modified:   Saved/Logs/SideScroller3.log
-[2017.11.03-03.31.40:635][124]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:BndEvt__Owl1_Owl1_DM_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:ReceiveBeginPlay' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:Tombstone Vector' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:Health' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:Owl1_Owl1_DM' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:Owl1_Cap' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:441][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:owl_splatterer' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C:UserConstructionScript' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.SKEL_BP_Owl1_C' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:Tombstone Vector' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:Health' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:Owl1_Owl1_DM' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:Owl1_Cap' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:owl_splatterer' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:ReceiveBeginPlay' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:UserConstructionScript' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:ExecuteUbergraph_BP_Owl1' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:442][124]LogMetaData: Removing '/Game/Monsters/Owls/Owl1/BP_Owl1.BP_Owl1_C:BndEvt__Owl1_Owl1_DM_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature' ref from Metadata '/Game/Monsters/Owls/BP_Owl1.PackageMetaData'
-[2017.11.03-03.31.41:536][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl1/Owl1_Cap" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Cap.uasset" SILENT=true
-[2017.11.03-03.31.41:574][124]LogSavePackage: Save=34.24ms
-[2017.11.03-03.31.41:574][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl1_CapCF781FFC41260E9366882CBAFE51BA6A.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Cap.uasset'
-[2017.11.03-03.31.41:576][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Cap.uasset
-[2017.11.03-03.31.41:773][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl1_Cap" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Cap.uasset" SILENT=true
-[2017.11.03-03.31.41:795][124]LogSavePackage: Save=8.75ms
-[2017.11.03-03.31.41:795][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl1_Cap0D634282480A0F6F3AE6D88E56887E31.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Cap.uasset'
-[2017.11.03-03.31.41:798][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Cap.uasset
-[2017.11.03-03.31.41:836][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl1/Owl1_Owl1" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Owl1.uasset" SILENT=true
-[2017.11.03-03.31.41:870][124]LogSavePackage: Save=32.07ms
-[2017.11.03-03.31.41:870][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl1_Owl1A1F370F8414014A89F6580A8F2D7978C.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Owl1.uasset'
-[2017.11.03-03.31.41:873][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Owl1.uasset
-[2017.11.03-03.31.42:090][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl1_Owl1" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Owl1.uasset" SILENT=true
-[2017.11.03-03.31.42:185][124]LogSavePackage: Save=9.21ms
-[2017.11.03-03.31.42:185][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl1_Owl1ECA70ED3406283F78950DB8CA505EDE8.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Owl1.uasset'
-[2017.11.03-03.31.42:189][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Owl1.uasset
-[2017.11.03-03.31.42:226][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl1/Owl1_Owl1_DM" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Owl1_DM.uasset" SILENT=true
-[2017.11.03-03.31.42:375][124]LogSavePackage: Save=146.11ms
-[2017.11.03-03.31.42:375][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl1_Owl1_DMF865A26D4E98B56A883388B97B425AE3.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Owl1_DM.uasset'
-[2017.11.03-03.31.42:378][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/Owl1_Owl1_DM.uasset
-[2017.11.03-03.31.42:718][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl1_Owl1_DM" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Owl1_DM.uasset" SILENT=true
-[2017.11.03-03.31.42:739][124]LogSavePackage: Save=6.53ms
-[2017.11.03-03.31.42:739][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl1_Owl1_DM073651CC486DBF19475A10A49B3CD4B7.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Owl1_DM.uasset'
-[2017.11.03-03.31.42:741][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1_Owl1_DM.uasset
-[2017.11.03-03.31.42:780][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl1/BP_Owl1" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/BP_Owl1.uasset" SILENT=true
-[2017.11.03-03.31.42:892][124]LogSavePackage: Save=108.83ms
-[2017.11.03-03.31.42:892][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/BP_Owl181A0D1BC46BA9E92F5C81BB3D32EF5A9.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/BP_Owl1.uasset'
-[2017.11.03-03.31.42:895][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl1/BP_Owl1.uasset
-[2017.11.03-03.31.43:143][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/BP_Owl1" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/BP_Owl1.uasset" SILENT=true
-[2017.11.03-03.31.43:168][124]LogSavePackage: Save=10.02ms
-[2017.11.03-03.31.43:168][124]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/BP_Owl11000E4144A0B5CA7CE67BD95436E1C8C.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/BP_Owl1.uasset'
-[2017.11.03-03.31.43:172][124]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/BP_Owl1.uasset
-[2017.11.03-03.31.50:463][752]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.11.03-03.32.01:084][752]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.11.03-03.32.01:205][752]SourceControl: [master 965a0e1] Moved a bunch of the owls around
-[2017.11.03-03.32.01:205][752]SourceControl:  Committer: Robertson <robertsonb@uleth.ca>
-[2017.11.03-03.32.01:205][752]SourceControl: Your name and email address were configured automatically based
-[2017.11.03-03.32.01:205][752]SourceControl: on your username and hostname. Please check that they are accurate.
-[2017.11.03-03.32.01:205][752]SourceControl: You can suppress this message by setting them explicitly:
-[2017.11.03-03.32.01:205][752]SourceControl:     git config --global user.name "Your Name"
-[2017.11.03-03.32.01:205][752]SourceControl:     git config --global user.email you@example.com
-[2017.11.03-03.32.01:205][752]SourceControl: After doing this, you may fix the identity used for this commit with:
-[2017.11.03-03.32.01:205][752]SourceControl:     git commit --amend --reset-author
-[2017.11.03-03.32.01:205][752]SourceControl:  8 files changed, 0 insertions(+), 0 deletions(-)
-[2017.11.03-03.32.01:205][752]SourceControl:  rewrite Content/Monsters/Owls/BP_Owl1.uasset (99%)
-[2017.11.03-03.32.01:205][752]SourceControl:  create mode 100644 Content/Monsters/Owls/Owl1/BP_Owl1.uasset
-[2017.11.03-03.32.01:205][752]SourceControl:  create mode 100644 Content/Monsters/Owls/Owl1/Owl1_Cap.uasset
-[2017.11.03-03.32.01:205][752]SourceControl:  copy Content/Monsters/Owls/{ => Owl1}/Owl1_Owl1.uasset (61%)
-[2017.11.03-03.32.01:205][752]SourceControl:  copy Content/Monsters/Owls/{ => Owl1}/Owl1_Owl1_DM.uasset (95%)
-[2017.11.03-03.32.01:205][752]SourceControl:  rewrite Content/Monsters/Owls/Owl1_Cap.uasset (99%)
-[2017.11.03-03.32.01:205][752]SourceControl:  rewrite Content/Monsters/Owls/Owl1_Owl1.uasset (99%)
-[2017.11.03-03.32.01:205][752]SourceControl:  rewrite Content/Monsters/Owls/Owl1_Owl1_DM.uasset (99%)
-[2017.11.03-03.32.01:249][752]SourceControl: Commited [master 965a0e1] Moved a bunch of the owls around.
-[2017.11.03-03.32.18:728][629]SourceControl: On branch master
-[2017.11.03-03.32.18:728][629]SourceControl: Changes not staged for commit:
-[2017.11.03-03.32.18:728][629]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.03-03.32.18:728][629]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.03-03.32.18:728][629]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
-[2017.11.03-03.32.18:728][629]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
-[2017.11.03-03.32.18:728][629]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.03-03.32.18:728][629]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
-[2017.11.03-03.32.18:728][629]SourceControl: 	modified:   Saved/Logs/SideScroller3.log
-[2017.11.03-03.32.18:728][629]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.03-03.32.19:152][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl2/Owl2_Object001" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl2/Owl2_Object001.uasset" SILENT=true
-[2017.11.03-03.32.19:177][629]LogSavePackage: Save=22.52ms
-[2017.11.03-03.32.19:177][629]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl2_Object0011947D54F48BFD24D4F10C6859CF3A8C6.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl2/Owl2_Object001.uasset'
-[2017.11.03-03.32.19:180][629]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl2/Owl2_Object001.uasset
-[2017.11.03-03.32.19:375][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Owls/Owl2_Object001" FILE="D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl2_Object001.uasset" SILENT=true
-[2017.11.03-03.32.19:397][629]LogSavePackage: Save=8.38ms
-[2017.11.03-03.32.19:397][629]LogSavePackage: Moving 'D:/BR/BR/SideScroller3/Saved/Owl2_Object001436B18624B43602D29AB3CA8CEFAEE5A.tmp' to 'D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl2_Object001.uasset'
-[2017.11.03-03.32.19:400][629]LogSavePackage: Display: Finished SavePackage D:/BR/BR/SideScroller3/Content/Monsters/Owls/Owl2_Object001.uasset
-[2017.11.03-03.32.22:397][908]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.11.03-03.32.31:234][908]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.11.03-03.32.31:322][908]SourceControl: [master 5d1a713] More Owl moving
-[2017.11.03-03.32.31:322][908]SourceControl:  Committer: Robertson <robertsonb@uleth.ca>
-[2017.11.03-03.32.31:322][908]SourceControl: Your name and email address were configured automatically based
-[2017.11.03-03.32.31:322][908]SourceControl: on your username and hostname. Please check that they are accurate.
-[2017.11.03-03.32.31:322][908]SourceControl: You can suppress this message by setting them explicitly:
-[2017.11.03-03.32.31:322][908]SourceControl:     git config --global user.name "Your Name"
-[2017.11.03-03.32.31:322][908]SourceControl:     git config --global user.email you@example.com
-[2017.11.03-03.32.31:322][908]SourceControl: After doing this, you may fix the identity used for this commit with:
-[2017.11.03-03.32.31:322][908]SourceControl:     git commit --amend --reset-author
-[2017.11.03-03.32.31:322][908]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
-[2017.11.03-03.32.31:322][908]SourceControl:  copy Content/Monsters/Owls/{ => Owl2}/Owl2_Object001.uasset (72%)
-[2017.11.03-03.32.31:322][908]SourceControl:  rewrite Content/Monsters/Owls/Owl2_Object001.uasset (99%)
-[2017.11.03-03.32.31:347][908]SourceControl: Commited [master 5d1a713] More Owl moving.
-[2017.11.03-03.32.46:247][865]SourceControl: rm 'Content/SideScrollerBP/M_CheckpointMonst.uasset'
-[2017.11.03-03.32.46:247][865]SourceControl: rm 'Content/SideScrollerBP/Owl1_Owl1.uasset'
-[2017.11.03-03.32.46:247][865]SourceControl: rm 'Content/SideScrollerBP/Owl2_Object001.uasset'
-[2017.11.03-03.32.46:247][865]SourceControl: rm 'Content/SideScrollerBP/ProjectileMonst_Box001.uasset'
-[2017.11.03-03.32.46:247][865]SourceControl: rm 'Content/SideScrollerBP/checkpointMNSTR.uasset'
-[2017.11.03-03.32.49:732][240]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.11.03-03.33.09:378][240]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.11.03-03.33.09:444][240]SourceControl: [master 24e2076] Removed redundant assets from the content
-[2017.11.03-03.33.09:444][240]SourceControl:  Committer: Robertson <robertsonb@uleth.ca>
-[2017.11.03-03.33.09:444][240]SourceControl: Your name and email address were configured automatically based
-[2017.11.03-03.33.09:444][240]SourceControl: on your username and hostname. Please check that they are accurate.
-[2017.11.03-03.33.09:444][240]SourceControl: You can suppress this message by setting them explicitly:
-[2017.11.03-03.33.09:444][240]SourceControl:     git config --global user.name "Your Name"
-[2017.11.03-03.33.09:444][240]SourceControl:     git config --global user.email you@example.com
-[2017.11.03-03.33.09:444][240]SourceControl: After doing this, you may fix the identity used for this commit with:
-[2017.11.03-03.33.09:444][240]SourceControl:     git commit --amend --reset-author
-[2017.11.03-03.33.09:444][240]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
-[2017.11.03-03.33.09:444][240]SourceControl:  delete mode 100644 Content/SideScrollerBP/M_CheckpointMonst.uasset
-[2017.11.03-03.33.09:444][240]SourceControl:  delete mode 100644 Content/SideScrollerBP/Owl1_Owl1.uasset
-[2017.11.03-03.33.09:444][240]SourceControl:  delete mode 100644 Content/SideScrollerBP/Owl2_Object001.uasset
-[2017.11.03-03.33.09:444][240]SourceControl:  delete mode 100644 Content/SideScrollerBP/ProjectileMonst_Box001.uasset
-[2017.11.03-03.33.09:444][240]SourceControl:  delete mode 100644 Content/SideScrollerBP/checkpointMNSTR.uasset
-[2017.11.03-03.33.09:482][240]SourceControl: Commited [master 24e2076] Removed redundant assets from the content.
+[2017.11.05-00.54.26:798][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.05-00.54.26:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.05-00.54.26:974][  0]LogInit: Computer: W700B-R1M5
+[2017.11.05-00.54.26:975][  0]LogInit: User: andrewfaubert
+[2017.11.05-00.54.26:975][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.11.05-00.54.26:975][  0]LogInit: High frequency timer resolution =2.338336 MHz
+[2017.11.05-00.54.26:975][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.05-00.54.26:975][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.05-00.54.26:975][  0]LogMemory: Process Physical Memory: 279.04 MB used, 279.04 MB peak
+[2017.11.05-00.54.26:975][  0]LogMemory: Process Virtual Memory: 275.84 MB used, 275.84 MB peak
+[2017.11.05-00.54.26:975][  0]LogMemory: Physical Memory: 4406.91 MB used,  11901.45 MB free, 16308.36 MB total
+[2017.11.05-00.54.26:975][  0]LogMemory: Virtual Memory: 675.41 MB used,  11901.45 MB free, 134217728.00 MB total
+[2017.11.05-00.54.27:853][  0]LogInit: Using OS detected language (en-US).
+[2017.11.05-00.54.27:853][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.05-00.54.27:997][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.05-00.54.32:626][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.05-00.54.33:223][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K4200' (Feature Level 11_0)
+[2017.11.05-00.54.33:223][  0]LogD3D11RHI:       4063/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.05-00.54.33:225][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.05-00.54.33:225][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.05-00.54.33:225][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.05-00.54.33:233][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.05-00.54.33:233][  0]LogD3D11RHI:     GPU DeviceId: 0x11b4 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.05-00.54.33:233][  0]LogWindows: EnumDisplayDevices:
+[2017.11.05-00.54.33:233][  0]LogWindows:    0. 'NVIDIA Quadro K4200' (P:1 D:1)
+[2017.11.05-00.54.33:234][  0]LogWindows:    1. 'NVIDIA Quadro K4200' (P:0 D:1)
+[2017.11.05-00.54.33:234][  0]LogWindows:    2. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.11.05-00.54.33:235][  0]LogWindows:    3. 'NVIDIA Quadro K4200' (P:0 D:0)
+[2017.11.05-00.54.33:235][  0]LogWindows:    4. 'Mirage Driver' (P:0 D:0)
+[2017.11.05-00.54.33:235][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.05-00.54.33:235][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K4200
+[2017.11.05-00.54.33:235][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.11.05-00.54.33:235][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.11.05-00.54.33:235][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.05-00.54.33:278][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.05-00.54.33:293][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.05-00.54.33:379][  0]LogShaderCompilers: Guid format shader working directory is 37 characters bigger than the processId version (F:/UnrealProject_2/Intermediate/Shaders/WorkingDirectory/2180/).
+[2017.11.05-00.54.33:379][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/andrew.faubert/AppData/Local/Temp/UnrealShaderWorkingDir/3AC6B81749947B07E27EBDA5192DFFBB/'.
+[2017.11.05-00.54.33:379][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.05-00.54.38:148][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.05-00.54.38:216][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.05-00.54.38:285][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.05-00.54.38:353][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.05-00.54.38:440][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.05-00.54.38:509][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.05-00.54.38:585][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.05-00.54.38:671][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.05-00.54.38:743][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.05-00.54.38:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.05-00.54.38:969][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.05-00.54.39:044][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.05-00.54.39:131][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.05-00.54.39:211][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.05-00.54.39:277][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.05-00.54.39:432][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.05-00.54.39:432][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.05-00.54.39:506][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.05-00.54.39:829][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.05-00.54.39:886][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.05-00.54.39:965][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.05-00.54.40:037][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.05-00.54.40:106][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.05-00.54.40:189][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.05-00.54.40:189][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.05-00.54.42:496][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.05-00.54.42:496][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2017.11.05-00.54.42:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UnrealProject_2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.05-00.54.42:496][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.05-00.54.42:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UnrealProject_2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.05-00.54.42:496][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.05-00.54.42:530][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.05-00.54.42:543][  0]LogDerivedDataCache: Using Local data cache path C:/Users/andrew.faubert/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.05-00.54.42:569][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.05-00.54.42:570][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.05-00.54.42:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.05-00.54.42:618][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.05-00.54.53:506][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2017.11.05-00.54.53:698][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.05-00.54.54:627][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.05-00.54.55:398][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.05-00.54.55:484][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.05-00.54.55:484][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.05-00.54.55:484][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.05-00.54.55:484][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.05-00.54.55:484][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.05-00.54.56:936][  0]LogNetVersion: SideScroller3 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3348076882)
+[2017.11.05-00.54.57:916][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.164688 seconds
+[2017.11.05-00.54.57:928][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.05-00.54.57:928][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.05-00.54.57:928][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.05-00.54.58:017][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.05-00.55.10:768][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.05-00.55.10:829][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.05-00.55.12:308][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.05-00.55.13:564][  0]SourceControl: Source control is disabled
+[2017.11.05-00.55.15:752][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.05-00.55.16:097][  0]LogOcInput: OculusInput pre-init called
+[2017.11.05-00.55.16:531][  0]LogEngine: Initializing Engine...
+[2017.11.05-00.55.16:533][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.05-00.55.17:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.05-00.55.17:677][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.05-00.55.17:855][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.05-00.55.17:867][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-00.55.17:889][  0]LogInit: FAudioDevice initialized.
+[2017.11.05-00.55.18:111][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/andrew.faubert/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.05-00.55.18:137][  0]LogInit: Texture streaming: Enabled
+[2017.11.05-00.55.18:295][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.05-00.55.18:833][  0]LogInit: Transaction tracking system initialized
+[2017.11.05-00.55.19:317][  0]BlueprintLog: New page: Editor Load
+[2017.11.05-00.55.20:755][  0]LocalizationService: Localization service is disabled
+[2017.11.05-00.55.22:091][  0]LogConsoleResponse: Display: 
+[2017.11.05-00.55.22:818][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.05-00.55.22:818][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.05-00.55.22:818][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.05-00.55.22:898][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProject_2/Content/' took 0.03s
+[2017.11.05-00.55.24:666][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.05-00.55.24:673][  0]LightingResults: New page: Lighting Build
+[2017.11.05-00.55.24:731][  0]MapCheck: New page: Map Check
+[2017.11.05-00.55.24:731][  0]LightingResults: New page: Lighting Build
+[2017.11.05-00.55.25:161][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.11.05-00.55.25:191][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.05-00.55.25:220][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.05-00.55.25:294][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.727ms to complete.
+[2017.11.05-00.55.25:294][  0]LogFileHelpers: Loading map 'Template_Default' took 0.627
+[2017.11.05-00.55.25:614][  0]LogCollectionManager: Loaded 0 collections in 0.001958 seconds
+[2017.11.05-00.55.25:717][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProject_2/Saved/Collections/' took 0.01s
+[2017.11.05-00.55.25:717][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProject_2/Content/Developers/andrewfaubert/Collections/' took 0.01s
+[2017.11.05-00.55.25:717][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProject_2/Content/Collections/' took 0.01s
+[2017.11.05-00.55.25:718][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.05-00.55.25:736][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2386 classes and 500 folders.
+[2017.11.05-00.55.25:821][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.05-00.55.26:799][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.05-00.55.26:860][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.05-00.55.26:920][  0]LogSlate: Took 0.022464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.05-00.55.26:939][  0]LogSlate: Took 0.015727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.05-00.55.26:963][  0]LogSlate: Took 0.016982 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.05-00.55.27:220][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2017.11.05-00.55.27:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.05-00.55.27:511][  0]LogLoad: (Engine Initialization) Total time: 69.94 seconds
+[2017.11.05-00.55.27:511][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.05-00.55.27:511][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.05-00.55.27:589][  0]SourceControl: On branch master
+[2017.11.05-00.55.27:589][  0]SourceControl: Changes not staged for commit:
+[2017.11.05-00.55.27:589][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.05-00.55.27:589][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.05-00.55.27:589][  0]SourceControl: 	modified:   Content/SideScrollerBP/Blueprints/SideScrollerGameMode.uasset
+[2017.11.05-00.55.27:589][  0]SourceControl: 	modified:   Saved/Logs/SideScroller3.log
+[2017.11.05-00.55.27:589][  0]SourceControl: Untracked files:
+[2017.11.05-00.55.27:589][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.05-00.55.27:589][  0]SourceControl: 	Config/DefaultEngine.ini
+[2017.11.05-00.55.27:589][  0]SourceControl: 	Config/DefaultInput.ini
+[2017.11.05-00.55.27:589][  0]SourceControl: 	Content/Level01_outside.umap
+[2017.11.05-00.55.27:589][  0]SourceControl: 	Content/Level01_outside_BuiltData.uasset
+[2017.11.05-00.55.27:589][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.05-00.55.27:590][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.05-00.55.27:727][  2]LogAssetRegistry: Asset discovery search completed in 34.2441 seconds
+[2017.11.05-00.55.27:730][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.05-00.55.27:730][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2017.11.05-00.55.31:820][453]LogSlate: Took 0.029648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.05-00.55.34:469][694]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.05-00.55.35:344][694]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.05-00.55.36:071][694]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.11.05-00.55.36:080][694]LogStaticMesh: Building static mesh Level_blocks...
+[2017.11.05-00.55.36:087][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/Level_blocks.Level_blocks
+[2017.11.05-00.55.36:168][694]LogMaterial: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2017.11.05-00.55.36:261][694]LogStaticMesh: Building static mesh campus_bottomfloor...
+[2017.11.05-00.55.36:266][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/campus_bottomfloor.campus_bottomfloor
+[2017.11.05-00.55.36:267][694]LogStaticMesh: Building static mesh campus_dramaramp...
+[2017.11.05-00.55.36:279][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/campus_dramaramp.campus_dramaramp
+[2017.11.05-00.55.36:283][694]LogStaticMesh: Building static mesh campus_library...
+[2017.11.05-00.55.37:471][694]LogStaticMesh: Built static mesh [1.19s] /Game/Enviroment/campus_library.campus_library
+[2017.11.05-00.55.37:549][694]LogStaticMesh: Building static mesh campus_pillars01...
+[2017.11.05-00.55.37:558][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/campus_pillars01.campus_pillars01
+[2017.11.05-00.55.37:559][694]LogStaticMesh: Building static mesh campus_pillars02...
+[2017.11.05-00.55.37:568][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/campus_pillars02.campus_pillars02
+[2017.11.05-00.55.37:569][694]LogStaticMesh: Building static mesh campus_pillars03...
+[2017.11.05-00.55.37:578][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/campus_pillars03.campus_pillars03
+[2017.11.05-00.55.37:579][694]LogStaticMesh: Building static mesh campus_uhall...
+[2017.11.05-00.55.37:587][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/campus_uhall.campus_uhall
+[2017.11.05-00.55.37:588][694]LogStaticMesh: Building static mesh campus_uhallpatio...
+[2017.11.05-00.55.37:599][694]LogStaticMesh: Built static mesh [0.01s] /Game/Enviroment/campus_uhallpatio.campus_uhallpatio
+[2017.11.05-00.55.37:609][694]LogMaterial: Missing cached shader map for material M_Rock_Slate, compiling. 
+[2017.11.05-00.55.37:668][694]LogMaterial: Missing cached shader map for material Material__40, compiling. 
+[2017.11.05-00.55.37:791][694]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-00.55.37:917][694]Cmd: MAP LOAD FILE="F:/UnrealProject_2/Content/Level01_outside.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.05-00.55.37:917][694]LightingResults: New page: Lighting Build
+[2017.11.05-00.55.37:918][694]LoadErrors: New page: Loading map: Level01_outside.umap
+[2017.11.05-00.55.37:919][694]MapCheck: New page: Map Check
+[2017.11.05-00.55.37:919][694]LightingResults: New page: Lighting Build
+[2017.11.05-00.55.38:163][694]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.05-00.55.38:273][694]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.05-00.55.38:388][694]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114.915ms to complete.
+[2017.11.05-00.55.38:390][694]LogFileHelpers: Loading map 'Level01_outside' took 0.474
+[2017.11.05-00.57.18:743][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.05-00.58.18:879][149]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.11.05-00.58.19:156][163]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.11.05-00.58.20:610][301]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.05-00.58.57:226][658]LogEditorViewport: Clicking Background
+[2017.11.05-00.59.11:967][343]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-00.59.12:208][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-00.59.12:209][343]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 12:59:12 PM)
+[2017.11.05-00.59.12:209][343]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-00.59.12:246][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037208s)
+[2017.11.05-00.59.12:248][343]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-00.59.12:248][343]LogPlayLevel: PIE: World Init took: (0.001826s)
+[2017.11.05-00.59.12:248][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.039558s)
+[2017.11.05-00.59.12:398][343]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-00.59.12:415][343]LogInit: FAudioDevice initialized.
+[2017.11.05-00.59.12:466][343]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-00.59.12:490][343]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-18.59.12
+[2017.11.05-00.59.12:491][343]LogWorld: Bringing up level for play took: 0.021571
+[2017.11.05-00.59.12:558][343]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.11.05-00.59.12:559][343]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Wood_Oak.M_Wood_Oak missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
+[2017.11.05-00.59.12:559][343]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2017.11.05-00.59.12:561][343]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.479
+[2017.11.05-00.59.34:536][717]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-00.59.36:361][886]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-00.59.39:587][164]LogSlate: Took 0.019010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.05-01.00.29:757][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (campus_library2)
+[2017.11.05-01.01.13:222][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (campus_uhall2)
+[2017.11.05-01.02.00:015][434]LogEditorViewport: Clicking on Actor (LMB): 3Blocks_C (Block3x4)
+[2017.11.05-01.02.01:074][526]LogEditorViewport: Clicking on Actor (LMB): 3Blocks_C (Block3x3)
+[2017.11.05-01.02.02:116][619]LogEditorViewport: Clicking on Actor (LMB): 2Blocks_C (Block2x2)
+[2017.11.05-01.02.14:105][712]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-01.02.14:279][721]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.11.05-01.02.16:875][968]LogEditorViewport: Clicking on Actor (LMB): 4Blocks_C (Block4x6)
+[2017.11.05-01.02.32:182][315]Cmd: TRANSACTION UNDO
+[2017.11.05-01.02.32:182][315]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.05-01.02.32:234][315]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.05-01.02.34:294][519]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor5)
+[2017.11.05-01.02.36:783][749]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor3)
+[2017.11.05-01.02.37:503][815]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor4)
+[2017.11.05-01.02.39:049][964]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x20)
+[2017.11.05-01.02.39:512][  5]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor2)
+[2017.11.05-01.02.40:231][ 69]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x15)
+[2017.11.05-01.02.40:889][124]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x19)
+[2017.11.05-01.02.41:473][173]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x18)
+[2017.11.05-01.02.42:209][242]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x9)
+[2017.11.05-01.02.42:747][293]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x18)
+[2017.11.05-01.02.43:314][352]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x17)
+[2017.11.05-01.02.46:129][587]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x15)
+[2017.11.05-01.02.46:616][628]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x6)
+[2017.11.05-01.02.47:083][668]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x16)
+[2017.11.05-01.02.47:885][739]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x14)
+[2017.11.05-01.02.48:310][779]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x13)
+[2017.11.05-01.02.48:812][826]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x12)
+[2017.11.05-01.02.49:284][875]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x7)
+[2017.11.05-01.02.49:853][919]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x14)
+[2017.11.05-01.02.52:860][176]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x6)
+[2017.11.05-01.02.53:594][246]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x5)
+[2017.11.05-01.02.54:445][333]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x4)
+[2017.11.05-01.02.55:537][440]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x11)
+[2017.11.05-01.02.57:173][588]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x10)
+[2017.11.05-01.02.57:730][633]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x9)
+[2017.11.05-01.02.58:334][685]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x8)
+[2017.11.05-01.02.59:177][767]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x6)
+[2017.11.05-01.03.02:747][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x13)
+[2017.11.05-01.03.03:318][117]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x12)
+[2017.11.05-01.03.04:441][207]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x11)
+[2017.11.05-01.03.05:120][260]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x10)
+[2017.11.05-01.03.05:817][322]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x8)
+[2017.11.05-01.03.06:624][391]LogEditorViewport: Clicking on Actor (CTRL LMB): 1Block_C (Block1x4)
+[2017.11.05-01.03.07:397][469]LogEditorViewport: Clicking on Actor (CTRL LMB): 1Block_C (Block1x2)
+[2017.11.05-01.03.07:890][520]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x7)
+[2017.11.05-01.03.09:905][690]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x2)
+[2017.11.05-01.03.10:361][715]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x3)
+[2017.11.05-01.03.10:747][746]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x4)
+[2017.11.05-01.04.36:822][150]LogEditorViewport: Clicking on Actor (LMB): 1Block_C (Block1x1)
+[2017.11.05-01.05.27:327][166]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (campus_library2)
+[2017.11.05-01.05.28:700][250]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-01.05.29:617][325]Cmd: TRANSACTION UNDO
+[2017.11.05-01.05.29:617][325]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.05-01.06.19:982][ 76]LogEditorViewport: Clicking on Actor (LMB): 1Block_C (Block1x1)
+[2017.11.05-01.06.22:005][274]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x2)
+[2017.11.05-01.06.23:285][394]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x3)
+[2017.11.05-01.06.24:225][477]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x4)
+[2017.11.05-01.06.25:539][601]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x7)
+[2017.11.05-01.06.26:806][729]LogEditorViewport: Clicking on Actor (CTRL LMB): 1Block_C (Block1x2)
+[2017.11.05-01.06.27:780][819]LogEditorViewport: Clicking on Actor (CTRL LMB): 1Block_C (Block1x4)
+[2017.11.05-01.06.28:199][853]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x8)
+[2017.11.05-01.06.35:009][496]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x10)
+[2017.11.05-01.06.35:584][545]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x11)
+[2017.11.05-01.06.36:016][587]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x12)
+[2017.11.05-01.06.36:552][627]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x13)
+[2017.11.05-01.06.36:985][668]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x14)
+[2017.11.05-01.06.42:370][202]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x6)
+[2017.11.05-01.06.43:136][277]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x8)
+[2017.11.05-01.06.43:663][325]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x9)
+[2017.11.05-01.06.44:203][381]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x10)
+[2017.11.05-01.06.44:699][426]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x11)
+[2017.11.05-01.06.45:426][495]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x4)
+[2017.11.05-01.06.46:260][579]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x16)
+[2017.11.05-01.06.46:830][627]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x6)
+[2017.11.05-01.06.47:364][677]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x15)
+[2017.11.05-01.06.47:963][731]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x14)
+[2017.11.05-01.06.48:516][776]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x13)
+[2017.11.05-01.06.49:095][826]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x12)
+[2017.11.05-01.06.49:637][868]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x7)
+[2017.11.05-01.06.55:067][400]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x5)
+[2017.11.05-01.06.55:913][482]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x6)
+[2017.11.05-01.06.57:569][644]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x17)
+[2017.11.05-01.06.58:172][698]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x9)
+[2017.11.05-01.06.58:795][761]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x19)
+[2017.11.05-01.06.59:880][866]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x18)
+[2017.11.05-01.07.00:467][918]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x15)
+[2017.11.05-01.07.01:209][979]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x20)
+[2017.11.05-01.07.01:649][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor2)
+[2017.11.05-01.07.02:460][ 90]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor3)
+[2017.11.05-01.07.03:515][197]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor4)
+[2017.11.05-01.07.04:953][346]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor5)
+[2017.11.05-01.07.35:965][260]LogEditorViewport: Clicking on Actor (LMB): 3Blocks_C (Block3x5)
+[2017.11.05-01.07.36:594][314]LogEditorViewport: Clicking on Actor (CTRL LMB): 4Blocks_C (Block4x5)
+[2017.11.05-01.07.37:155][362]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x7)
+[2017.11.05-01.07.37:809][426]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x8)
+[2017.11.05-01.07.38:383][482]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x9)
+[2017.11.05-01.07.39:108][549]LogEditorViewport: Clicking on Actor (CTRL LMB): 4Blocks_C (Block4x6)
+[2017.11.05-01.08.14:814][ 49]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor6)
+[2017.11.05-01.08.15:337][ 93]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor7)
+[2017.11.05-01.08.16:116][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (campus_library2)
+[2017.11.05-01.08.18:539][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.11.05-01.08.20:105][535]LogEditorViewport: Clicking on Actor (LMB): Collapsing_Floor_C (Collapsing_Floor7)
+[2017.11.05-01.08.21:170][621]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor6)
+[2017.11.05-01.08.22:064][703]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor8)
+[2017.11.05-01.08.22:642][755]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor9)
+[2017.11.05-01.08.23:217][812]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor10)
+[2017.11.05-01.08.23:681][853]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor11)
+[2017.11.05-01.08.24:255][904]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor12)
+[2017.11.05-01.08.24:924][968]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor13)
+[2017.11.05-01.08.25:398][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor14)
+[2017.11.05-01.08.25:934][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor15)
+[2017.11.05-01.08.27:165][176]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor16)
+[2017.11.05-01.08.27:958][252]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (campus_library2)
+[2017.11.05-01.08.29:687][433]Cmd: TRANSACTION UNDO
+[2017.11.05-01.08.29:688][433]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.05-01.08.31:615][601]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor15)
+[2017.11.05-01.08.32:322][665]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor17)
+[2017.11.05-01.08.36:692][ 89]LogEditorViewport: Clicking on Actor (LMB): Collapsing_Roof_C (Collapsing_Roof2)
+[2017.11.05-01.08.51:259][555]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor17)
+[2017.11.05-01.08.51:944][617]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor15)
+[2017.11.05-01.08.52:759][696]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor14)
+[2017.11.05-01.08.53:454][758]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor16)
+[2017.11.05-01.08.54:191][834]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor13)
+[2017.11.05-01.08.54:752][889]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor12)
+[2017.11.05-01.08.55:323][939]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor11)
+[2017.11.05-01.08.55:977][998]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor10)
+[2017.11.05-01.08.56:496][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor9)
+[2017.11.05-01.08.57:029][ 98]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor8)
+[2017.11.05-01.08.57:573][150]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor6)
+[2017.11.05-01.08.58:595][252]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor7)
+[2017.11.05-01.09.26:037][ 38]LogEditorViewport: Clicking on Actor (LMB): 4Blocks_C (Block4x6)
+[2017.11.05-01.09.27:268][160]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x9)
+[2017.11.05-01.09.28:001][231]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x8)
+[2017.11.05-01.09.28:737][304]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x7)
+[2017.11.05-01.09.29:387][359]LogEditorViewport: Clicking on Actor (CTRL LMB): 4Blocks_C (Block4x5)
+[2017.11.05-01.09.30:050][414]LogEditorViewport: Clicking on Actor (CTRL LMB): 3Blocks_C (Block3x5)
+[2017.11.05-01.09.46:047][979]LogEditorViewport: Clicking on Actor (LMB): Collapsing_Floor_C (Collapsing_Floor8)
+[2017.11.05-01.09.47:115][ 80]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor7)
+[2017.11.05-01.09.47:581][119]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor6)
+[2017.11.05-01.09.48:411][206]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor9)
+[2017.11.05-01.09.49:266][289]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor10)
+[2017.11.05-01.09.49:928][345]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor11)
+[2017.11.05-01.09.50:432][391]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor12)
+[2017.11.05-01.09.51:094][453]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor13)
+[2017.11.05-01.09.51:531][487]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor14)
+[2017.11.05-01.09.52:086][540]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor15)
+[2017.11.05-01.09.53:097][640]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor16)
+[2017.11.05-01.09.54:193][756]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor17)
+[2017.11.05-01.09.54:856][822]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor15)
+[2017.11.05-01.09.55:719][901]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x5)
+[2017.11.05-01.09.56:889][ 14]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x16)
+[2017.11.05-01.09.57:589][ 84]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x5)
+[2017.11.05-01.09.58:778][192]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x17)
+[2017.11.05-01.09.59:425][250]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x18)
+[2017.11.05-01.09.59:921][300]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x19)
+[2017.11.05-01.10.00:863][392]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Roof_C (Collapsing_Roof2)
+[2017.11.05-01.10.09:152][214]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x21)
+[2017.11.05-01.11.07:980][728]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.11.05-01.11.08:036][728]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.11.05-01.11.08:079][728]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.11.05-01.11.08:157][728]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.11.05-01.11.08:215][728]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.11.05-01.11.08:284][728]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.05-01.11.08:320][728]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.05-01.11.08:363][728]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.05-01.11.08:411][728]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.05-01.11.08:471][728]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.11.05-01.11.08:524][728]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.05-01.11.08:572][728]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.11.05-01.11.08:649][728]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.11.05-01.11.55:850][992]Cmd: TRANSACTION UNDO
+[2017.11.05-01.11.55:850][992]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.05-01.11.55:910][992]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.11.05-01.12.09:392][413]Cmd: TRANSACTION UNDO
+[2017.11.05-01.12.09:392][413]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.05-01.12.09:448][413]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.11.05-01.12.34:187][ 13]Cmd: TRANSACTION UNDO
+[2017.11.05-01.12.34:188][ 13]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.05-01.12.34:254][ 13]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.11.05-01.12.35:147][ 91]Cmd: TRANSACTION UNDO
+[2017.11.05-01.12.35:147][ 91]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.05-01.12.35:194][ 91]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.11.05-01.13.31:505][143]Cmd: TRANSACTION UNDO
+[2017.11.05-01.13.31:505][143]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2017.11.05-01.13.31:567][143]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.11.05-01.15.59:021][108]LogEditorViewport: Clicking on Actor (LMB): 3Blocks_C (Block3x5)
+[2017.11.05-01.16.00:090][215]LogEditorViewport: Clicking on Actor (CTRL LMB): 4Blocks_C (Block4x5)
+[2017.11.05-01.16.02:255][411]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x7)
+[2017.11.05-01.16.02:944][469]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x8)
+[2017.11.05-01.16.03:375][507]LogEditorViewport: Clicking on Actor (CTRL LMB): 2Blocks_C (Block2x9)
+[2017.11.05-01.16.05:828][748]Cmd: TRANSACTION UNDO
+[2017.11.05-01.16.05:828][748]LogEditorTransaction: Undo Move Actors
+[2017.11.05-01.16.06:494][794]LogEditorViewport: Clicking on Actor (CTRL LMB): 4Blocks_C (Block4x6)
+[2017.11.05-01.16.12:764][389]LogEditorViewport: Clicking on Actor (LMB): Collapsing_Floor_C (Collapsing_Floor6)
+[2017.11.05-01.16.13:544][466]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor7)
+[2017.11.05-01.16.14:127][526]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor8)
+[2017.11.05-01.16.14:703][584]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor9)
+[2017.11.05-01.16.15:224][635]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor10)
+[2017.11.05-01.16.15:786][690]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor11)
+[2017.11.05-01.16.16:308][739]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor12)
+[2017.11.05-01.16.17:102][815]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor13)
+[2017.11.05-01.16.17:629][863]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor14)
+[2017.11.05-01.16.18:207][920]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor15)
+[2017.11.05-01.16.19:168][ 12]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor16)
+[2017.11.05-01.16.19:584][ 49]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor17)
+[2017.11.05-01.16.22:894][353]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x21)
+[2017.11.05-01.16.26:815][711]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x19)
+[2017.11.05-01.16.27:581][782]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x18)
+[2017.11.05-01.16.28:333][847]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x17)
+[2017.11.05-01.16.29:331][938]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x16)
+[2017.11.05-01.16.29:913][990]LogEditorViewport: Clicking on Actor (CTRL LMB): 5Blocks_C (Block5x5)
+[2017.11.05-01.17.12:002][ 37]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.13:701][216]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.15:583][399]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.19:758][785]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.21:806][975]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.28:994][651]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.30:830][828]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.36:373][358]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.39:226][641]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.42:182][924]Cmd: TRANSACTION UNDO
+[2017.11.05-01.17.42:182][924]LogEditorTransaction: Undo Move Actors
+[2017.11.05-01.17.44:138][ 90]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.47:000][379]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.17.50:815][747]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.17.50:847][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.17.50:847][747]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:17:50 PM)
+[2017.11.05-01.17.50:847][747]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.17.50:874][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026658s)
+[2017.11.05-01.17.50:875][747]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.17.50:875][747]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2017.11.05-01.17.50:876][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.028505s)
+[2017.11.05-01.17.51:056][747]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.17.51:073][747]LogInit: FAudioDevice initialized.
+[2017.11.05-01.17.51:108][747]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.17.51:131][747]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.17.51
+[2017.11.05-01.17.51:133][747]LogWorld: Bringing up level for play took: 0.023741
+[2017.11.05-01.17.51:213][747]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 0.168
+[2017.11.05-01.18.06:854][390]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.05-01.18.07:560][460]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.05-01.18.09:306][628]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.18.09:635][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.18.09:635][628]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:18:09 PM)
+[2017.11.05-01.18.09:635][628]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.18.09:669][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033408s)
+[2017.11.05-01.18.09:670][628]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.18.09:670][628]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2017.11.05-01.18.09:671][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.035277s)
+[2017.11.05-01.18.09:708][628]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.18.09:723][628]LogInit: FAudioDevice initialized.
+[2017.11.05-01.18.09:758][628]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.18.09:772][628]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.18.09
+[2017.11.05-01.18.09:773][628]LogWorld: Bringing up level for play took: 0.014132
+[2017.11.05-01.18.09:776][628]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 0.731
+[2017.11.05-01.18.28:105][508]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2017.11.05-01.18.29:399][508]LogSlate: Took 0.019179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.05-01.18.56:353][153]BlueprintLog: New page: Compile BP_Todd
+[2017.11.05-01.18.58:111][250]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.18.58:150][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.18.58:150][250]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:18:58 PM)
+[2017.11.05-01.18.58:150][250]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.18.58:170][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019574s)
+[2017.11.05-01.18.58:171][250]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.18.58:171][250]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2017.11.05-01.18.58:171][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.020949s)
+[2017.11.05-01.18.58:209][250]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.18.58:221][250]LogInit: FAudioDevice initialized.
+[2017.11.05-01.18.58:256][250]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.18.58:267][250]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.18.58
+[2017.11.05-01.18.58:268][250]LogWorld: Bringing up level for play took: 0.010498
+[2017.11.05-01.18.58:270][250]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.776
+[2017.11.05-01.19.01:943][552]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.19.01:976][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.19.01:977][552]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:19:01 PM)
+[2017.11.05-01.19.01:977][552]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.19.02:001][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024325s)
+[2017.11.05-01.19.02:002][552]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.19.02:002][552]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2017.11.05-01.19.02:002][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.025581s)
+[2017.11.05-01.19.02:044][552]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.19.02:057][552]LogInit: FAudioDevice initialized.
+[2017.11.05-01.19.02:091][552]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.19.02:114][552]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.19.02
+[2017.11.05-01.19.02:115][552]LogWorld: Bringing up level for play took: 0.022855
+[2017.11.05-01.19.02:117][552]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 1.072
+[2017.11.05-01.19.06:293][997]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.05-01.19.08:999][299]Cmd: DELETE
+[2017.11.05-01.19.08:999][299]Cmd: ACTOR DELETE
+[2017.11.05-01.19.09:000][299]LogEditorActor: Deleted Actor: PlayerStart
+[2017.11.05-01.19.09:043][299]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2017.11.05-01.19.34:220][220]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.19.34:249][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.19.34:249][220]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:19:34 PM)
+[2017.11.05-01.19.34:249][220]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.19.34:268][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019358s)
+[2017.11.05-01.19.34:269][220]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.19.34:269][220]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2017.11.05-01.19.34:269][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.020578s)
+[2017.11.05-01.19.34:312][220]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.19.34:324][220]LogInit: FAudioDevice initialized.
+[2017.11.05-01.19.34:359][220]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.19.34:370][220]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.19.34
+[2017.11.05-01.19.34:371][220]LogWorld: Bringing up level for play took: 0.011237
+[2017.11.05-01.19.34:373][220]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.673
+[2017.11.05-01.19.45:764][454]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.19.45:793][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.19.45:794][454]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:19:45 PM)
+[2017.11.05-01.19.45:794][454]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.19.45:818][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024082s)
+[2017.11.05-01.19.45:819][454]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.19.45:819][454]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2017.11.05-01.19.45:819][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.025246s)
+[2017.11.05-01.19.45:861][454]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.19.45:874][454]LogInit: FAudioDevice initialized.
+[2017.11.05-01.19.45:903][454]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.19.45:913][454]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.19.45
+[2017.11.05-01.19.45:914][454]LogWorld: Bringing up level for play took: 0.010865
+[2017.11.05-01.19.45:916][454]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 0.871
+[2017.11.05-01.19.55:967][598]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.19.55:991][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.19.55:991][598]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:19:55 PM)
+[2017.11.05-01.19.55:991][598]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.19.56:011][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019965s)
+[2017.11.05-01.19.56:012][598]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.19.56:012][598]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2017.11.05-01.19.56:012][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.021135s)
+[2017.11.05-01.19.56:042][598]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.19.56:052][598]LogInit: FAudioDevice initialized.
+[2017.11.05-01.19.56:090][598]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.19.56:111][598]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.19.56
+[2017.11.05-01.19.56:113][598]LogWorld: Bringing up level for play took: 0.022454
+[2017.11.05-01.19.56:116][598]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 1.07
+[2017.11.05-01.20.03:920][488]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.05-01.20.19:426][206]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.20.19:455][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.20.19:455][206]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:20:19 PM)
+[2017.11.05-01.20.19:455][206]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.20.19:475][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019525s)
+[2017.11.05-01.20.19:475][206]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.20.19:476][206]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2017.11.05-01.20.19:476][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.020817s)
+[2017.11.05-01.20.19:523][206]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.20.19:534][206]LogInit: FAudioDevice initialized.
+[2017.11.05-01.20.19:565][206]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.20.19:575][206]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.20.19
+[2017.11.05-01.20.19:576][206]LogWorld: Bringing up level for play took: 0.010476
+[2017.11.05-01.20.19:578][206]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 0.532
+[2017.11.05-01.21.35:883][633]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.21.36:339][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.21.36:340][633]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:21:36 PM)
+[2017.11.05-01.21.36:340][633]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.21.36:371][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031087s)
+[2017.11.05-01.21.36:372][633]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.21.36:373][633]LogPlayLevel: PIE: World Init took: (0.001553s)
+[2017.11.05-01.21.36:373][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.033136s)
+[2017.11.05-01.21.36:421][633]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.21.36:435][633]LogInit: FAudioDevice initialized.
+[2017.11.05-01.21.36:471][633]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.21.36:494][633]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.21.36
+[2017.11.05-01.21.36:495][633]LogWorld: Bringing up level for play took: 0.023384
+[2017.11.05-01.21.36:499][633]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.547
+[2017.11.05-01.21.40:734][ 72]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.05-01.21.42:414][259]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.21.42:445][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.21.42:445][259]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:21:42 PM)
+[2017.11.05-01.21.42:445][259]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.21.42:465][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019944s)
+[2017.11.05-01.21.42:466][259]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.21.42:466][259]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2017.11.05-01.21.42:466][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.021033s)
+[2017.11.05-01.21.42:510][259]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.21.42:523][259]LogInit: FAudioDevice initialized.
+[2017.11.05-01.21.42:554][259]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.21.42:575][259]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.21.42
+[2017.11.05-01.21.42:577][259]LogWorld: Bringing up level for play took: 0.022217
+[2017.11.05-01.21.42:581][259]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.465
+[2017.11.05-01.21.48:223][897]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.21.48:247][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.21.48:247][897]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:21:48 PM)
+[2017.11.05-01.21.48:247][897]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.21.48:267][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019763s)
+[2017.11.05-01.21.48:267][897]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.21.48:267][897]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2017.11.05-01.21.48:268][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.020895s)
+[2017.11.05-01.21.48:304][897]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.21.48:318][897]LogInit: FAudioDevice initialized.
+[2017.11.05-01.21.48:350][897]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.21.48:370][897]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.21.48
+[2017.11.05-01.21.48:372][897]LogWorld: Bringing up level for play took: 0.020891
+[2017.11.05-01.21.48:375][897]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.671
+[2017.11.05-01.21.58:640][786]BlueprintLog: New page: Compile BP_Todd
+[2017.11.05-01.21.59:664][846]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.21.59:688][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.21.59:688][846]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:21:59 PM)
+[2017.11.05-01.21.59:688][846]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.21.59:709][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020650s)
+[2017.11.05-01.21.59:710][846]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.21.59:710][846]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2017.11.05-01.21.59:710][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.021940s)
+[2017.11.05-01.21.59:751][846]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.21.59:763][846]LogInit: FAudioDevice initialized.
+[2017.11.05-01.21.59:798][846]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.21.59:820][846]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.21.59
+[2017.11.05-01.21.59:822][846]LogWorld: Bringing up level for play took: 0.022850
+[2017.11.05-01.21.59:826][846]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 0.78
+[2017.11.05-01.22.02:714][128]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.22.02:739][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.22.02:740][128]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:22:02 PM)
+[2017.11.05-01.22.02:740][128]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.22.02:761][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021233s)
+[2017.11.05-01.22.02:762][128]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.22.02:762][128]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2017.11.05-01.22.02:762][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.022417s)
+[2017.11.05-01.22.02:803][128]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.22.02:814][128]LogInit: FAudioDevice initialized.
+[2017.11.05-01.22.02:854][128]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.22.02:866][128]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.22.02
+[2017.11.05-01.22.02:866][128]LogWorld: Bringing up level for play took: 0.011035
+[2017.11.05-01.22.02:868][128]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.177
+[2017.11.05-01.22.15:426][596]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.22.15:449][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.22.15:449][596]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:22:15 PM)
+[2017.11.05-01.22.15:449][596]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.22.15:469][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020160s)
+[2017.11.05-01.22.15:470][596]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.22.15:470][596]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.11.05-01.22.15:470][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.021369s)
+[2017.11.05-01.22.15:509][596]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.22.15:522][596]LogInit: FAudioDevice initialized.
+[2017.11.05-01.22.15:554][596]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.22.15:576][596]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.22.15
+[2017.11.05-01.22.15:578][596]LogWorld: Bringing up level for play took: 0.022622
+[2017.11.05-01.22.15:582][596]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 0.536
+[2017.11.05-01.22.41:465][827]BlueprintLog: New page: Compile BP_Todd
+[2017.11.05-01.22.42:323][866]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.22.42:352][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.22.42:352][866]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:22:42 PM)
+[2017.11.05-01.22.42:352][866]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.22.42:373][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020332s)
+[2017.11.05-01.22.42:374][866]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.22.42:374][866]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2017.11.05-01.22.42:374][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.021614s)
+[2017.11.05-01.22.42:416][866]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.22.42:428][866]LogInit: FAudioDevice initialized.
+[2017.11.05-01.22.42:463][866]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.22.42:474][866]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.22.42
+[2017.11.05-01.22.42:475][866]LogWorld: Bringing up level for play took: 0.011042
+[2017.11.05-01.22.42:477][866]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.569
+[2017.11.05-01.22.45:212][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.22.45:242][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.22.45:242][ 98]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:22:45 PM)
+[2017.11.05-01.22.45:242][ 98]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.22.45:262][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019946s)
+[2017.11.05-01.22.45:263][ 98]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.22.45:263][ 98]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2017.11.05-01.22.45:263][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.021013s)
+[2017.11.05-01.22.45:302][ 98]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.22.45:313][ 98]LogInit: FAudioDevice initialized.
+[2017.11.05-01.22.45:349][ 98]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.22.45:371][ 98]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.22.45
+[2017.11.05-01.22.45:373][ 98]LogWorld: Bringing up level for play took: 0.022555
+[2017.11.05-01.22.45:375][ 98]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside 0.33
+[2017.11.05-01.24.26:876][478]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.05-01.24.27:437][527]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.05-01.24.28:185][611]Cmd: TRANSACTION UNDO
+[2017.11.05-01.24.28:185][611]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.05-01.24.29:523][746]Cmd: TRANSACTION UNDO
+[2017.11.05-01.24.29:523][746]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.05-01.25.47:900][928]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.25.48:230][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (campus_library2)
+[2017.11.05-01.25.53:807][558]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.05-01.25.54:581][645]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.25.54:633][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.25.54:634][645]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:25:54 PM)
+[2017.11.05-01.25.54:634][645]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.25.54:660][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026112s)
+[2017.11.05-01.25.54:661][645]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.25.54:661][645]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.11.05-01.25.54:662][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.027557s)
+[2017.11.05-01.25.54:764][645]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.25.54:784][645]LogInit: FAudioDevice initialized.
+[2017.11.05-01.25.54:819][645]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.25.54:841][645]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.25.54
+[2017.11.05-01.25.54:842][645]LogWorld: Bringing up level for play took: 0.022847
+[2017.11.05-01.25.54:846][645]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.198
+[2017.11.05-01.26.00:692][286]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.05-01.26.00:721][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.05-01.26.00:721][286]PIE: New page: PIE session: Level01_outside (Nov 4, 2017, 1:26:00 PM)
+[2017.11.05-01.26.00:721][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level01_outside
+[2017.11.05-01.26.00:741][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019870s)
+[2017.11.05-01.26.00:742][286]LogAIModule: Creating AISystem for world Level01_outside
+[2017.11.05-01.26.00:742][286]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2017.11.05-01.26.00:742][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level01_outside.Level01_outside to /Game/UEDPIE_0_Level01_outside.Level01_outside (0.020998s)
+[2017.11.05-01.26.00:777][286]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.05-01.26.00:789][286]LogInit: FAudioDevice initialized.
+[2017.11.05-01.26.00:820][286]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.11.05-01.26.00:842][286]LogWorld: Bringing World /Game/UEDPIE_0_Level01_outside.Level01_outside up for play (max tick rate 0) at 2017.11.04-19.26.00
+[2017.11.05-01.26.00:843][286]LogWorld: Bringing up level for play took: 0.021986
+[2017.11.05-01.26.00:847][286]PIE: Play in editor start time for /Game/UEDPIE_0_Level01_outside -0.197
+[2017.11.05-01.26.14:697][878]LogEditorViewport: Clicking on Actor (LMB): Collapsing_Floor_C (Collapsing_Floor3)
+[2017.11.05-01.26.15:894][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor4)
+[2017.11.05-01.26.16:343][ 59]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor5)
+[2017.11.05-01.26.20:055][482]LogEditorViewport: Clicking on Actor (LMB): Collapsing_Floor_C (Collapsing_Floor5)
+[2017.11.05-01.26.29:813][535]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor2)
+[2017.11.05-01.26.30:512][609]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor3)
+[2017.11.05-01.26.31:034][666]LogEditorViewport: Clicking on Actor (CTRL LMB): Collapsing_Floor_C (Collapsing_Floor4)
+[2017.11.05-01.27.17:734][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level01_outside" FILE="F:/UnrealProject_2/Saved/Autosaves/Game/Level01_outside_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.05-01.27.17:945][979]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.11.05-01.27.18:578][979]LogSavePackage: Save=758.08ms
+[2017.11.05-01.27.18:578][979]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Level01_outside_Auto15B64707745759B857A4817898B254003.tmp' to 'F:/UnrealProject_2/Saved/Autosaves/Game/Level01_outside_Auto1.umap'
+[2017.11.05-01.27.18:580][979]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Saved/Autosaves/Game/Level01_outside_Auto1.umap
+[2017.11.05-01.27.18:591][979]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level01_outside' took 0.909
+[2017.11.05-01.27.18:591][979]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.909
+[2017.11.05-01.27.18:594][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Monsters/Todd/BP_Todd] ([1] browsable assets)...
+[2017.11.05-01.27.18:624][979]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Monsters/Todd/BP_Todd.BP_Todd]
+[2017.11.05-01.27.18:625][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/Monsters/Todd/BP_Todd]
+[2017.11.05-01.27.18:625][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Monsters/Todd/BP_Todd" FILE="F:/UnrealProject_2/Saved/Autosaves/Game/Monsters/Todd/BP_Todd_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.05-01.27.18:759][979]LogSavePackage: Save=103.01ms
+[2017.11.05-01.27.18:759][979]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/BP_Todd_Auto1EE9137A94DBB8FEFB64C00B40A74985A.tmp' to 'F:/UnrealProject_2/Saved/Autosaves/Game/Monsters/Todd/BP_Todd_Auto1.uasset'
+[2017.11.05-01.27.18:760][979]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Saved/Autosaves/Game/Monsters/Todd/BP_Todd_Auto1.uasset
+[2017.11.05-01.27.18:760][979]LogFileHelpers: Auto-saving content packages took 0.168
+[2017.11.05-01.31.05:183][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (campus_uhall2)
+[2017.11.05-01.32.53:221][194]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.05-01.32.57:784][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level01_outside" FILE="F:/UnrealProject_2/Content/Level01_outside.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.05-01.32.58:630][194]LogSavePackage: Save=740.27ms
+[2017.11.05-01.32.58:630][194]LogSavePackage: Moving 'F:/UnrealProject_2/Saved/Level01_outside4CD3E38E448FB28487A0E6BEBD7B5DC7.tmp' to 'F:/UnrealProject_2/Content/Level01_outside.umap'
+[2017.11.05-01.32.58:645][194]LogSavePackage: Display: Finished SavePackage F:/UnrealProject_2/Content/Level01_outside.umap
+[2017.11.05-01.32.58:731][194]LogFileHelpers: Saving map 'Level01_outside' took 1.047
+[2017.11.05-01.34.10:497][502]LogEditorFactories: Performing atomic reimport of [F:/unreal class/project2/Todd.fbx]
+[2017.11.05-01.34.10:666][502]LogFbx: Loading FBX Scene from F:/unreal class/project2/Todd.fbx
+[2017.11.05-01.34.10:765][502]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.05-01.34.10:782][502]LogFbx: =================================================
+[2017.11.05-01.34.10:782][502]LogFbx: Dumping Node START [Todd] 
+[2017.11.05-01.34.10:782][502]LogFbx: 	Total Deformer Count -1127879552.
+[2017.11.05-01.34.10:782][502]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.05-01.34.10:782][502]LogFbx: =================================================
+[2017.11.05-01.34.10:782][502]LogFbx: 	Attribute () Type (4).
+[2017.11.05-01.34.10:782][502]LogFbx: 		[Node Attribute Child 1] Todd (Type Mesh).
+[2017.11.05-01.34.10:782][502]LogFbx: Dumping Node END [Todd]
+[2017.11.05-01.34.10:786][502]LogFbx: =================================================
+[2017.11.05-01.34.10:786][502]LogFbx: Dumping Node START [Todd] 
+[2017.11.05-01.34.10:786][502]LogFbx: 	Total Deformer Count -558211472.
+[2017.11.05-01.34.10:786][502]LogFbx: 		[Node 1]  (Type Skin).
+[2017.11.05-01.34.10:786][502]LogFbx: =================================================
+[2017.11.05-01.34.10:786][502]LogFbx: 	Attribute () Type (4).
+[2017.11.05-01.34.10:786][502]LogFbx: 		[Node Attribute Child 1] Todd (Type Mesh).
+[2017.11.05-01.34.10:786][502]LogFbx: Dumping Node END [Todd]
+[2017.11.05-01.34.10:788][502]LogFbx: Warning: Not valid bind pose for Pose (BIND_POSES) - Node Todd : The relative matrices do not match
+[2017.11.05-01.34.10:788][502]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.11.05-01.34.10:790][502]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Todd
+[2017.11.05-01.34.10:790][502]LogFbx: Warning: Recreating bind pose succeeded.
+[2017.11.05-01.34.10:795][502]LogFbx: Triangulating skeletal mesh Todd
+[2017.11.05-01.34.16:302][502]LogFbx: Warning: Bones digested - 128  Depth of hierarchy - 20
+[2017.11.05-01.34.17:351][502]LogSkeletalMesh: Section 0: 20023 vertices, 124 active bones
+[2017.11.05-01.34.17:384][502]LogSkeletalMesh: Section 0: Material=0, 29464 triangles
+[2017.11.05-01.34.34:432][502]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.BP_Todd_C_1.CharacterMesh0'
+[2017.11.05-01.34.34:434][502]LogEditorFactories: -- imported successfully
+[2017.11.05-01.34.34:447][502]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.05-01.34.34:447][502]FBXImport: Warning: The following bones are missing from the bind pose:
+Bone004  
+Bone056(mirrored)  
+Bone060(mirrored)  
+Bone060(mirrored)(mirrored)  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2017.11.05-01.34.40:574][934]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.05-01.34.40:777][934]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.05-01.34.40:868][934]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0'
+[2017.11.05-01.34.40:868][934]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0'
+[2017.11.05-01.34.41:333][934]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2017.11.05-01.34.44:551][144]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.11.05-01.34.44:591][144]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1'
+[2017.11.05-01.34.44:591][144]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1'
+[2017.11.05-01.34.53:939][696]Cmd: TRANSACTION UNDO
+[2017.11.05-01.34.53:939][696]LogEditorTransaction: Undo Rotate Bone
+[2017.11.05-01.34.54:242][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.05-01.34.54:242][696]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0'
+[2017.11.05-01.34.54:244][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.11.05-01.34.54:244][696]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_13:PersistentLevel.Actor_1.DebugSkelMeshComponent_1'
+[2017.11.05-01.35.02:370][397]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.05-01.35.36:363][ 29]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.05-01.35.59:392][ 29]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.05-01.35.59:459][ 29]SourceControl: [master 195985d] Added level 1 and some structre, added Todd with bones
+[2017.11.05-01.35.59:459][ 29]SourceControl:  Committer: Faubert <andrew.faubert@uleth.ca>
+[2017.11.05-01.35.59:459][ 29]SourceControl: Your name and email address were configured automatically based
+[2017.11.05-01.35.59:459][ 29]SourceControl: on your username and hostname. Please check that they are accurate.
+[2017.11.05-01.35.59:459][ 29]SourceControl: You can suppress this message by setting them explicitly:
+[2017.11.05-01.35.59:459][ 29]SourceControl:     git config --global user.name "Your Name"
+[2017.11.05-01.35.59:459][ 29]SourceControl:     git config --global user.email you@example.com
+[2017.11.05-01.35.59:459][ 29]SourceControl: After doing this, you may fix the identity used for this commit with:
+[2017.11.05-01.35.59:459][ 29]SourceControl:     git commit --amend --reset-author
+[2017.11.05-01.35.59:459][ 29]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.05-01.35.59:459][ 29]SourceControl:  create mode 100644 Content/Level01_outside.umap
+[2017.11.05-01.35.59:459][ 29]SourceControl:  create mode 100644 Content/Level01_outside_BuiltData.uasset
+[2017.11.05-01.35.59:492][ 29]SourceControl: Commited [master 195985d] Added level 1 and some structre, added Todd with bones.
